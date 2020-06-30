@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="flex-center position-ref full-height">
+<div class="flex-center position-ref full-height mx-auto ">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -16,7 +16,7 @@
             @endif
 
             
-        <div class="row"> 
+        <div class="row row-centered pos"> 
             
             
             <div class="col"> <!-- reihe zwei -->
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            
             </div>
 
         </div>   <!-- reihe zwei div ende-->
@@ -102,7 +102,7 @@
                         B-IT
                     </div>
 
-            <div class="container">
+            
                 
                  <div class="">
                      
@@ -164,7 +164,7 @@
                      </div>
                  </div>
              </div>
-         </div>
+         
 
      </div>   <!-- reihe zwei div ende-->
         
@@ -176,7 +176,7 @@
                     B-IT
                 </div>
 
-        <div class="container">
+        
             
              <div class="">
                  
