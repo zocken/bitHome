@@ -30,10 +30,11 @@
 
             .content {
                 text-align: center;
+                
             }
 
             .title {
-                font-size: 100px; text-align: center; font-weight: bold;
+                font-size: 110px; text-align: center; font-weight: bold;
             }
 
             .links > a {
@@ -47,7 +48,7 @@
             }
 
             .m-b-md {
-                margin-top: -150px;
+                margin-top: -40px;
                 margin-bottom: -20px; 
                 
             }
@@ -60,6 +61,7 @@ font-family: 'Roboto', Arial, sans-serif;
 text-align: center;
 text-transform: uppercase;
 font-weight: 500;
+margin-top: 50px;
 }
 .snip1226 * {
 box-sizing: border-box;

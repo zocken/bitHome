@@ -1,65 +1,41 @@
 @extends('layouts.main')
 @section('content')
-<div class="flex-center position-ref full-height mx-auto ">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            
-        <div class="row row-centered pos"> 
+    <div class="container-fluid flex-center position-ref mx-auto">    
+        <div class="row w-100 flex-center"> 
             
             
-            <div class="col"> <!-- reihe zwei -->
-                <div class="content">
+            <div class="col-xs-6 col-sm-3"> <!-- reihe zwei -->
+               
                     <div class="title m-b-md">
-                        B-IT
+                    
                     </div>
     
 
-               <div class="container">
+               
                    
-                    <div class="">
-                        
-                        <div class="">
+                    
+                        <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
                             
-                            <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
                             
-                            <div class="" style="">
                                 
-                                <div class="" style="">
-                                    
-                                    <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Web2Rent Perfect</div>
+                            <div class="title" style="margin-top: 145px;color:#ffffff;font-size:19px;background-color:#33373b;">Web2Rent Perfect</div>
                                 
                                 
-                                </div>
-                                
-
-                             
-
-                                <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;">
+                            <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                     
                                     <div class=""><span><span class="figure " style="font-size:20px; font-weight:bold">55,90</span> 
                                         <span class="figure " style="font-size:16px; font-weight:bold">€</span> 
                                         <span class="" style="font-size:20px; font-weight:bold">&nbsp;mtl.</span></span>
                                     
                                     </div>
-                                </div>
+                            </div>
 
                                 
                                 
-                                <div class="" style="padding:0px 20px 20px 20px;background-color:#f0f0f0;">
+                                <div class="" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
                                     
-                                    <ul class="" style="text-align: left;">
+                                    <ul class="" style="margin-top: 10px;text-align: left;">
                                    
                                         <br>
                                         <li>&nbsp;Individuelle Gestaltung</li>
@@ -80,49 +56,47 @@
                                         <li>&nbsp;Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                                         <li>&nbsp;Sicherheitsupdates</li></ul>
                                         
-                                        <p>Einmalige Einrichtungsgebühr: 108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+                                        <p style="text-align: center;">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                                     
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
             
-            </div>
+                            
+                        
+            </div>           
+            
+            
 
-        </div>   <!-- reihe zwei div ende-->
+           <!-- reihe zwei div ende-->
 
         
         
 
-        <div class="col"> <!-- reihe zwei -->
-            <div class="col"> <!-- reihe zwei -->
-                <div class="content">
+            <div class="col-xs-6 col-sm-3"> <!-- reihe zwei -->
+           
+                
                     <div class="title m-b-md">
                         B-IT
                     </div>
 
             
                 
-                 <div class="">
+                 
                      
-                     <div class="">
+                     
                          
                          <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
                          
-                         <div class="" style="">
-                             
-                             <div class="" style="">
+                        
                                  
                                  <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Web2Rent Perfect</div>
                              
                              
-                             </div>
+                             
                              
 
                           
 
-                             <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;">
+                             <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                  
                                  <div class=""><span><span class="figure " style="font-size:20px; font-weight:bold">55,90</span> 
                                      <span class="figure " style="font-size:16px; font-weight:bold">€</span> 
@@ -133,9 +107,9 @@
 
                              
                              
-                             <div class="" style="padding:0px 20px 20px 20px;background-color:#f0f0f0;">
+                             <div class="" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
                                  
-                                 <ul class="" style="text-align: left;">
+                                 <ul class="" style="margin-top: 10px;text-align: left;">
                                 
                                      <br>
                                      <li>&nbsp;Individuelle Gestaltung</li>
@@ -156,47 +130,45 @@
                                      <li>&nbsp;Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                                      <li>&nbsp;Sicherheitsupdates</li></ul>
                                      
-                                     <p>Einmalige Einrichtungsgebühr: 108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+                                     <p style="text-align: center;">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                                  
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+                            </div>
+                
+            </div>
+                     
+                 
+             
          
 
-     </div>   <!-- reihe zwei div ende-->
+    
         
 
-     <div class="col"> <!-- reihe zwei -->
-        <div class="col"> <!-- reihe zwei -->
-            <div class="content">
+            <div class="col-xs-6 col-sm-3"> <!-- reihe zwei -->
+        
+            
                 <div class="title m-b-md">
-                    B-IT
+            
                 </div>
 
         
             
-             <div class="">
-                 
-                 <div class="">
+            
                      
                      <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
                      
-                     <div class="" style="">
+                     
                          
-                         <div class="" style="">
+                         
                              
-                             <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Web2Rent Perfect</div>
+                             <div class="title" style="margin-top: 145px;color:#ffffff;font-size:19px;background-color:#33373b;">Web2Rent Perfect</div>
                          
                          
-                         </div>
+                         
                          
 
                       
 
-                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;">
+                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                              
                              <div class=""><span><span class="figure " style="font-size:20px; font-weight:bold">55,90</span> 
                                  <span class="figure " style="font-size:16px; font-weight:bold">€</span> 
@@ -207,9 +179,9 @@
 
                          
                          
-                         <div class="" style="padding:0px 20px 20px 20px;background-color:#f0f0f0;">
+                         <div class="" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
                              
-                             <ul class="" style="text-align: left;">
+                             <ul class="" style="margin-top: 10px;text-align: left;">
                             
                                  <br>
                                  <li>&nbsp;Individuelle Gestaltung</li>
@@ -230,22 +202,15 @@
                                  <li>&nbsp;Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                                  <li>&nbsp;Sicherheitsupdates</li></ul>
                                  
-                                 <p>Einmalige Einrichtungsgebühr: 108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+                                 <p style="text-align: center;">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">108,-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                              
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
+                        </div>
+            </div>
+                
 
- </div>   <!-- reihe zwei div ende-->
-        </div>  <!-- rows div-->
+        </div>   <!-- row -->
+    </div>  <!-- container -->
             
-
-        
-        </div>    
 
 
        
