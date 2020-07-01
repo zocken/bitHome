@@ -18,10 +18,18 @@ Route::get('/', function () {
 });
 
 
+Route::get('/bithome', function () {
+    return view('welcome');
+})->name('bithome');
+
 
 
 
 /* Footer*/
 Route::get('/impressum', function () {
-    return view('impressum');
+    return view('layouts.impressum');
 })->name('impressum');
+
+Route::get('/agb', function () {
+    return view('layouts.agb');
+})->name('agb');

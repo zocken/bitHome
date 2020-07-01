@@ -23,7 +23,10 @@
         <div class="container-fluid h-100">
             <div class="row h-100">
               <div class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-dark" id="collapseExample">
-                <a href="{{ route('impressum') }}" >AGB</a>
+                <a href="{{ route('bithome') }}" >Home</a><br/>
+                <a href="{{ route('impressum') }}" >Impressum</a><br/>
+                <a href="{{ route('agb') }}" >Allgemeine Geschäftsbedingungen</a>
+
               </div>
               <div class="col">
                 <div class="row">
