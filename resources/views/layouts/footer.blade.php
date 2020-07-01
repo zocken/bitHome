@@ -8,15 +8,10 @@
      
       <li class="current"><a href="{{ route('impressum') }}" data-hover="Impressum">Impressum</a></li>
       <li><a href="{{ route('impressum') }}" data-hover="AGB">AGB</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">Ich</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">bin</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">cool</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">Ich</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">bin</a></li>
-      <li><a href="{{ route('impressum') }}" data-hover="AGB">cooler</a></li>
+      
       <br/>
      
-      <p style="font-size: 14px;text-center">@Copyright Brüggen-IT</p> 
+      <p style="font-size: 14px;text-center">@ 2020 Brüggen-IT</p> 
     </ul>
   
     

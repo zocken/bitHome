@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 
 
+
 /* Footer*/
 Route::get('/impressum', function () {
     return view('impressum');
