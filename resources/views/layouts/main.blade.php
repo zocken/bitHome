@@ -14,6 +14,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        
+        <!-- own css -->
         <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
 
        
@@ -22,7 +24,7 @@
 
         <div class="container-fluid h-100">
             <div class="row h-100">
-              <div class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-dark" id="collapseExample">
+              <div style="font-size:25px" class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-light" id="collapseExample">
                 <a href="{{ route('bithome') }}" >Home</a><br/>
                 <a href="{{ route('impressum') }}" >Impressum</a><br/>
                 <a href="{{ route('agb') }}" >Allgemeine Geschäftsbedingungen</a>
@@ -32,7 +34,7 @@
                 <div class="row">
                   <div class="col-1">
                     <button class="btn sticky-top" data-toggle="collapse" href="#collapseExample" role="button">
-                      Menu
+                     <span style="font-size:25px"> Menu </span>
                     </button>   
                   </div>
                   
