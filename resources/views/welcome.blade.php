@@ -9,13 +9,13 @@
         <div class="row">
                 <div class="col-md-4 col-sm-6 col-12">
                     <div style="background-color:#f0f0f0;" class="card h-100">
-                        <div style="padding-top:25px;" class="title m-b-md d-md-none">
+                        <div style="padding-top:25px;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
                             B-IT
                             </div>
                         
   
                         
-                            <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
+                            <div class="clearfix" ></div>
                                 
                                 
                                     
@@ -39,7 +39,7 @@
                                        
                                             <br>
                                             <li>&nbsp;Individuelle Gestaltung</li>
-                                            <li>&nbsp;Responsive Design <span  title="Optimiert für Mobilgeräte">
+                                            <li>&nbsp;Responsive Design <span  title="Für Mobilgeräte optimiert">
                                                 <i class="fa fa-info-circle"></i></span></li>
                                                 
                                             <li>&nbsp;2 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
@@ -63,13 +63,14 @@
 
                 <div class="col-md-4 col-sm-6 col-12">
                     <div style="background-color:#f0f0f0;" class="card h-100">
-                        <div style="padding-top:25px;" class="title m-b-md d-none d-md-block">
+                        
+                        <div style="padding-top:25px;" class="title m-b-md d-none d-md-block"> <!-- Nur Big Screen -->
                         B-IT
                         </div>
 
         
                      
-                        <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
+                        <div class="clearfix" ></div>
                      
                         <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Medium</div>
                          
@@ -96,7 +97,7 @@
                             
                                  <br>
                                  <li>&nbsp;Individuelle Gestaltung</li>
-                                 <li>&nbsp;Responsive Design <span class="" style="" title="Optimiert für Mobilgeräte">
+                                 <li>&nbsp;Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
                                      <i class="fa fa-info-circle"></i></span></li>
                                      
                                  <li>&nbsp;8 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
@@ -132,12 +133,8 @@
                     <div style="background-color:#f0f0f0;" class="card h-100">
                     
                        
-            
-                
-                    
-                    
-                             
-                        <div class="clearfix" data-desktop="20" data-mobi="20" data-smobi="20"></div>
+                        
+                        <div class="clearfix"></div>
                              
                              
                                  
@@ -166,7 +163,7 @@
                                     
                                          <br>
                                          <li>&nbsp;Individuelle Gestaltung</li>
-                                         <li>&nbsp;Responsive Design <span class="" style="" title="Optimiert für Mobilgeräte">
+                                         <li>&nbsp;Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
                                              <i class="fa fa-info-circle"></i></span></li>
                                              
                                          <li>&nbsp;20 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
