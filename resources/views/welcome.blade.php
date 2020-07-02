@@ -9,6 +9,9 @@
         <div class="row">
                 <div class="col-md-4 col-sm-6 col-12">
                     <div style="background-color:#f0f0f0;" class="card h-100">
+                        <div style="padding-top:25px;" class="title m-b-md d-md-none">
+                            B-IT
+                            </div>
                         
   
                         
@@ -60,7 +63,7 @@
 
                 <div class="col-md-4 col-sm-6 col-12">
                     <div style="background-color:#f0f0f0;" class="card h-100">
-                        <div style="padding-top:25px;" class="title m-b-md">
+                        <div style="padding-top:25px;" class="title m-b-md d-none d-md-block">
                         B-IT
                         </div>
 
