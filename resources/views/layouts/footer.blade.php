@@ -9,6 +9,7 @@
       <li class="current"><a href="{{ route('bithome') }}" data-hover="Startseite">Startseite</a></li>
       <li><a href="{{ route('impressum') }}" data-hover="Impressum">Impressum</a></li>
       <li><a href="{{ route('agb') }}" data-hover="Allgemeine Geschäftsbedingungen">Allgemeine Geschäftsbedingungen</a></li>
+      <li><a href="{{ route('agb') }}" data-hover="Meine Page ordern">Meine Page ordern</a></li>
       
       <br/>
      

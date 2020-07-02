@@ -27,7 +27,9 @@
               <div style="font-size:25px" class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-light" id="collapseExample">
                 <a href="{{ route('bithome') }}" >Home</a><br/>
                 <a href="{{ route('impressum') }}" >Impressum</a><br/>
-                <a href="{{ route('agb') }}" >Allgemeine Geschäftsbedingungen</a>
+                <a href="{{ route('agb') }}" >Allgemeine Geschäftsbedingungen</a><br/>
+                <a href="{{ route('agb') }}" >Meine Page ordern</a><br/>
+
 
               </div>
               <div class="col">
