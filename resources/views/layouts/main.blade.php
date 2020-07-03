@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   
-<link rel="apple-touch-icon" sizes="152x152" href="asset{{'/public/apple-touch-icon-152x152-precomposed.png'}}" />
+<link rel="apple-touch-icon" sizes="152x152" href="{{assett('/public/apple-touch-icon-152x152-precomposed.png')}}" />
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
@@ -20,6 +20,7 @@
         
         <!-- own css -->
         <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
+        
 
        
     </head>
