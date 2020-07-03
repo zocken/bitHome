@@ -5,9 +5,9 @@
 
 
 
-    <div style="margin-top: 120px;" class="container  mx-auto">
+    <div style="margin-top: 120px;" class="container">
         <div class="row">
-                <div class="col-md-4 col-sm-6 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-8">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                         <div style="padding-top:25px;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
                             B-IT
@@ -15,7 +15,7 @@
                         
   
                         
-                            <div class="clearfix" ></div>
+                            
                                 
                                 
                                     
@@ -61,7 +61,7 @@
 
 
 
-                <div class="col-md-4 col-sm-6 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-8 ">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                         
                         <div style="padding-top:25px;" class="title m-b-md d-none d-md-block"> <!-- Nur Big Screen -->
@@ -70,7 +70,7 @@
 
         
                      
-                        <div class="clearfix" ></div>
+                        
                      
                         <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Medium</div>
                          
@@ -129,12 +129,12 @@
 
 
 
-                <div class="col-md-4 col-sm-6 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-8 ">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                     
                        
                         
-                        <div class="clearfix"></div>
+                        
                              
                              
                                  
