@@ -26,7 +26,7 @@
     </head>
     <body>
 
-        <div class="container-fluid h-100">
+        <div class="container-fluid h-100 bg">
             <div class="row h-100">
               <div style="font-size:25px" class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-light" id="collapseExample">
                 <a href="{{ route('bithome') }}" >Home</a><br/>

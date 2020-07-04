@@ -9,9 +9,11 @@
         <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-8">
                     <div style="background-color:#f0f0f0;" class="card h-100">
-                        <div style="padding-top:25px;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
-                            B-IT
-                            </div>
+                        
+                        <div style="padding-top:25px;max-height:25%;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
+                        
+                            B-IT  <p><small style="font-size:30px;" class="text-muted"> Rent a Page </small></p>
+                        </div>
                         
   
                         
@@ -134,11 +136,7 @@
                     
                        
                         
-                        
-                             
-                             
-                                 
-                                 
+
                                      
                         <div class="title" style="margin-top: 130px;color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Premium</div>
                                  
