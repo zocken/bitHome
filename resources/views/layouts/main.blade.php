@@ -26,7 +26,7 @@
     </head>
     <body>
 
-        <div class="container-fluid h-100 bg">
+        <div class="container-fluid h-100 bg img-fluid ">
             <div class="row h-100">
               <div style="font-size:25px" class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-light" id="collapseExample">
                 <a href="{{ route('bithome') }}" >Home</a><br/>
@@ -36,9 +36,9 @@
 
 
               </div>
-              <div class="col">
+              <div class="col ">
                 <div class="row">
-                  <div class="col-1">
+                  <div class="col-1 ">
                     <button class="btn sticky-top" data-toggle="collapse" href="#collapseExample" role="button">
                      <span style="font-size:25px"> Menu </span>
                     </button>   

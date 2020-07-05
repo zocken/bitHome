@@ -61,9 +61,19 @@
     height: 50%;
               
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
             
+}
+
+.imageDivCloud {   
+    background: url("http://localhost/bithome/public/img/cloud.jpg");   
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: absolute;
+    margin-left:350px;
+
+    
 }
 
 
@@ -122,3 +132,4 @@ white-space: nowrap;
 .snip1226 .current a {
 transform: translateY(100%);
 }
+
