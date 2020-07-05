@@ -5,7 +5,7 @@
     <li ><a href="{{ route('bithome') }}" data-hover="Startseite">Startseite</a></li>
     <li><a href="{{ route('impressum') }}" data-hover="Impressum">Impressum</a></li>
     <li><a href="{{ route('agb') }}" data-hover="AGB">AGB</a></li>
-    <li class="current"><a href="{{ route('agb') }}" data-hover="Meine Page ordern">Meine Page ordern</a></li>
+    <li class="current"><a href="{{ route('agb') }}" data-hover="Kontakt">Meine Page ordern</a></li>
     
     <br/>
    
