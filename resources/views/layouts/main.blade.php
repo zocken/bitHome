@@ -24,23 +24,22 @@
 
        
     </head>
-    <body>
+    <body class="bg img-fluid h-100">
 
-        <div class="container-fluid h-100 bg img-fluid ">
+        <div class="container-fluid h-100">
             <div class="row h-100">
-              <div style="font-size:25px" class="col-5 col-md-2 collapse width m-0 p-0 h-100 bg-light" id="collapseExample">
-                <a href="{{ route('bithome') }}" >Home</a><br/>
-                <a href="{{ route('impressum') }}" >Impressum</a><br/>
-                <a href="{{ route('agb') }}" >Allgemeine Geschäftsbedingungen</a><br/>
-                <a href="{{ route('agb') }}" >Meine Page ordern</a><br/>
-
-
+              <div style="font-size:25px" class="mt-2 ml-3 font-weight-bold col-5 col-md-2 collapse width m-0 p-0 h-100" id="collapseExample">
+                <a style="color:black;" href="{{ route('bithome') }}" >Home</a><br/>
+                <a style="color:black;" href="{{ route('agb') }}" >Kontakt</a><br/>
+                <a style="color:black;" href="{{ route('impressum') }}" >Impressum</a><br/>
+                <a style="color:black;" href="{{ route('agb') }}" >AGB</a><br/>
+               
               </div>
               <div class="col ">
                 <div class="row">
                   <div class="col-1 ">
                     <button class="btn sticky-top" data-toggle="collapse" href="#collapseExample" role="button">
-                     <span style="font-size:25px"> Menu </span>
+                     <span class="font-weight-bold" style="font-size:25px"> Menu </span>
                     </button>   
                   </div>
                   
