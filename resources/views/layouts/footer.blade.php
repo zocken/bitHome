@@ -1,4 +1,4 @@
-<div class="mt-5  bg-dark text-white container-fluid text-center">
+<div class="mt-5  bg-dark text-white container-fluid text-center fixed-bottom">
 
 
 <div class="footer-copyright text-center py-3 container-fluid flex-center mx-auto">
