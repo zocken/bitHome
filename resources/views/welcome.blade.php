@@ -21,7 +21,7 @@
                                 
                                 
                                     
-                                <div class="title mt-lg-5" style="margin-top: 130px;color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Starter</div>
+                                <div class="title mt-lg-5-myown" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Starter</div>
                                     
                                     
                                 <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
