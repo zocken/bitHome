@@ -5,9 +5,9 @@
 
 
 
-    <div style="margin-top: 120px;" class="container">
-        <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-8">
+    <div style="margin-top: 50px;" class="container">
+        <div class="row justify-content-md-cente">
+                <div class="col-lg-auto col-md-auto col-sm-auto">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                         
                         <div style="padding-top:25px;max-height:25%;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
@@ -63,7 +63,7 @@
 
 
 
-                <div class="col-lg-4 col-md-4 col-sm-8 ">
+                <div class="col-lg-auto col-md-auto col-sm-auto ">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                         
                         <div style="padding-top:25px;" class="title m-b-md d-none d-md-block"> <!-- Nur Big Screen -->
@@ -131,14 +131,14 @@
 
 
 
-                <div class="col-lg-4 col-md-4 col-sm-8 ">
+                <div class="col-lg-auto col-md-auto col-sm-auto ">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                     
                        
                         
 
                                      
-                        <div class="title" style="margin-top: 130px;color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Premium</div>
+                        <div class="title mt-lg-5-myown" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Premium</div>
                                  
                                  
                                  
