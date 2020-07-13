@@ -1,191 +1,175 @@
 @extends('layouts.main')
 @section('content')
 
-            
 
 
+<div class="mt-5 container">
+    
+    
 
-    <div style="margin-top: 50px;" class="container">
-        <div class="row justify-content-md-cente">
-                <div class="col-lg-auto col-md-auto col-sm-auto">
-                    <div style="background-color:#f0f0f0;" class="card h-100">
-                        
-                        <div style="padding-top:25px;max-height:25%;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
-                        
-                            B-IT  <p><small style="font-size:30px;" class="text-muted"> Rent a Page </small></p>
-                        </div>
-                        
-  
-                        
-                            
-                                
-                                
-                                    
-                                <div class="title mt-lg-5-myown" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Starter</div>
-                                    
-                                    
-                                <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
-                                        
-                                        <div class=""><span><span class="figure " style="font-size:45px; font-weight:bold">14,79.-</span> 
-                                            <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
-                                            <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
-                                        
-                                        </div>
-                                </div>
+    <div class="row justify-content-md-center  ">
+
         
-                                    
-                                    
-                                    <div class="h-100" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
-                                        
-                                        <ul class="" style="margin-top: 10px;text-align: left;">
+            <div class=" col-lg-4 col-md-4 col-sm-12  h-100  overflow-hidden"> 
+
+                
+    
+                <div class="title mt-lg-8-myown" style="color:#ffffff;font-size:32px;background-color:#33373b;">Page2Rent Starter</div>
+
+                <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
+                                     
+                    <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">17,90.-</span> 
+                        <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
+                        <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
+                    
+                    </div>
+               </div>
+
+                <ul  class="list-group border h-50 overflow-hidden bg-light">
                                        
-                                            <br>
-                                            <li>&nbsp;Individuelle Gestaltung</li>
-                                            <li>&nbsp;Responsive Design <span  title="Für Mobilgeräte optimiert">
-                                                <i class="fa fa-info-circle"></i></span></li>
-                                                
-                                            <li>&nbsp;2 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                                            <li>&nbsp;Kontaktformular</li>
-                                            <li>&nbsp;Google Map Anbindung</li>
-                                            <li>&nbsp;Impressum &amp; Datenschutz <span title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                                            <li>&nbsp;Sicherheitsupdates</li>
-                                            
-                                        </ul>
-                                            
-                                            <div style="margin-top : 200px;"> 
-                                                <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
-                                           </div>   
-                                    </div>    
-                    </div>
-                </div>           
                     
-
-
-
-
-                <div class="col-lg-auto col-md-auto col-sm-auto ">
-                    <div style="background-color:#f0f0f0;" class="card h-100">
+                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
+                    <li class="list-group-item pt-1 pb-1">Responsive Design <span  title="Für Mobilgeräte optimiert">
+                        <i class="fa fa-info-circle"></i></span></li>
                         
-                        <div style="padding-top:25px;" class="title m-b-md d-none d-md-block"> <!-- Nur Big Screen -->
-                        B-IT
-                        </div>
-
-        
-                     
-                        
-                     
-                        <div class="title" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Medium</div>
-                         
-                         
-                         
-                         
-
-                      
-
-                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
-                             
-                             <div class=""><span><span class="figure " style="font-size:45px; font-weight:bold">35,90.-</span> 
-                                 <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
-                                 <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
-                             
-                             </div>
-                         </div>
-
-                         
-                         
-                         <div class="h-100" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
-                             
-                             <ul class="" style="margin-top: 10px;text-align: left;">
-                            
-                                 <br>
-                                 <li>&nbsp;Individuelle Gestaltung</li>
-                                 <li>&nbsp;Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
-                                     <i class="fa fa-info-circle"></i></span></li>
-                                     
-                                 <li>&nbsp;8 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                                 <li>&nbsp;Kontaktformular</li>
-                                 <li>&nbsp;Google Map Anbindung</li>
-                                 <li>&nbsp;News- / Blogsystem</li>
-                                 <li>&nbsp;Mediencenter <span class="" style="" title="Zum Verwalten von Bildern und Downloads"><i class="fa fa-info-circle"></i></span></li>
-                                 <li>&nbsp;Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                                 <li>&nbsp;Eintragung in Suchmaschinen </li>
-                                 <li>&nbsp;Sicherheitsupdates</li>
-                                 
-                                
-                            </ul>
-                                
-                                 
-                                 
-                            <div style="margin-top : 125px;"> 
-                                <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">69.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
-                            </div>   
-                             
-                            </div>
-            
-                    </div>
-                </div>
-               
-
-
-
-
-
-
-                <div class="col-lg-auto col-md-auto col-sm-auto ">
-                    <div style="background-color:#f0f0f0;" class="card h-100">
+                    <li class="list-group-item pt-1 pb-1">2 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
+                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
+                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
                     
-                       
-                        
+                    
+                    
+                </ul>
 
+
+                <div class="mt-mwst1 border bg-warning" > 
+                    <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+               </div>   
+
+
+            </div>   
+
+
+           
+
+            <div class="col-lg-4 col-md-4 col-sm-12  h-100 overflow-hidden">
+
+    
+                 
+                    <div class="title mt-lg-8-myown" style="color:#ffffff;font-size:32px;background-color:#33373b;">Page2Rent Medium</div>
+
+                    <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                      
-                        <div class="title mt-lg-5-myown" style="color:#ffffff;font-size:19px;background-color:#33373b;">Page2Rent Premium</div>
-                                 
-                                 
-                                 
-                                 
-            
-                                <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
-                                     
-                                     <div class=""><span><span class="figure " style="font-size:45px; font-weight:bold">55,90.-</span> 
+                                     <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">35,90.-</span> 
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
                                      
                                      </div>
-                                </div>
-            
-                                 
-                                 
-                                 <div class="h-100" style="padding:0px 20px 0px 60px;background-color:#f0f0f0;">
-                                     
-                                     <ul class="" style="margin-top: 10px;text-align: left;">
-                                    
-                                         <br>
-                                         <li>&nbsp;Individuelle Gestaltung</li>
-                                         <li>&nbsp;Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
-                                             <i class="fa fa-info-circle"></i></span></li>
-                                             
-                                         <li>&nbsp;20 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                                         <li>&nbsp;Kontaktformular</li>
-                                         <li>&nbsp;Google Map Anbindung</li>
-                                         <li>&nbsp;News- / Blogsystem</li>
-                                         <li>&nbsp;Userverwaltung </li>
-                                         <li>&nbsp;Mediencenter <span class="" style="" title="Zum Verwalten von Bildern etc."><i class="fa fa-info-circle"></i></span></li>
-                                         <li>&nbsp;Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                                         <li>&nbsp;Eintragung in Suchmaschinen </li>
-                                         <li>&nbsp;Erweiterbar durch Plugins</li>
-                                         <li>&nbsp;2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
-                                         <li>&nbsp;Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
-                                         <li>&nbsp;Sicherheitsupdates</li>
-                                        
-                                    </ul>
-                                        <div style="margin-top : 30px;"> 
-                                         <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">99.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
-                                        </div>    
-                                 </div>
-                            </div>
-                        </div>
+                    </div>
+
+                   
+
+                <ul class="list-group border h-50 overflow-hidden bg-light">
+                            
+                    
+                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
+                    <li class="list-group-item pt-1 pb-1">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
+                        <i class="fa fa-info-circle"></i></span></li>
+                        
+                    <li class="list-group-item pt-1 pb-1">8 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
+                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
+                    <li class="list-group-item pt-1 pb-1">News- / Blogsystem</li>
+                    <li class="list-group-item pt-1 pb-1">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern und Downloads"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Eintragung in Suchmaschinen </li>
+                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    
+                   
+               </ul>
+
+               <div  class="mt-mwst2 border bg-warning"> 
+                <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">69.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+               </div>   
+                
             </div>
-    </div>
-    
+            
+            
+
+            <div class="col-lg-4 col-md-4 col-sm-12 h-100 overflow-hidden">
+                
+                <div class="title mt-lg-8-myown" style="color:#ffffff;font-size:32px;background-color:#33373b;">Page2Rent Premium</div>
+
+                <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
+                                     
+                    <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">55,90.-</span> 
+                        <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
+                        <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
+                    
+                    </div>
+               </div>
+                
+                
+                <ul class="list-group border h-50 overflow-hidden bg-light">
+                                    
+                    
+                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
+                    <li class="list-group-item pt-1 pb-1">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
+                        <i class="fa fa-info-circle"></i></span></li>
+                        
+                    <li class="list-group-item pt-1 pb-1">20 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
+                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
+                    <li class="list-group-item pt-1 pb-1">News- / Blogsystem</li>
+                    <li class="list-group-item pt-1 pb-1">Userverwaltung </li>
+                    <li class="list-group-item pt-1 pb-1">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern etc."><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Eintragung in Suchmaschinen </li>
+                    <li class="list-group-item pt-1 pb-1">Erweiterbar durch Plugins</li>
+                    <li class="list-group-item pt-1 pb-1">2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
+                   
+               </ul>
+                
+               <div class=" border bg-warning"> 
+                <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">99.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+               </div>   
+
+            </div>   
+
+
+
        
+
+            
+
+
+
+
+    </div>    
+
+
+
+
+
+
+
+</div>   
+
+
+
+
 @endsection

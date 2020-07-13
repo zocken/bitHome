@@ -571,6 +571,12 @@ pre code {
   }
 }
 
+@media (min-width: 1330px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
   padding-right: 15px;
@@ -9368,11 +9374,6 @@ button.bg-dark:focus {
   .my-lg-5 {
     margin-top: 4rem !important;
   }
-  .my-lg-5-myown,
-  .mt-lg-5-myown{
-    margin-top: 8rem !important;
-  }
-
   .mr-lg-5,
   .mx-lg-5 {
     margin-right: 3rem !important;
