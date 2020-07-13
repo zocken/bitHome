@@ -5,9 +5,9 @@
 
 
 
-    <div style="margin-top: 50px;" class="container">
-        <div class="row justify-content-md-cente">
-                <div class="col-lg-auto col-md-auto col-sm-auto">
+    <div  style="margin-top: 50px;" class="container">
+        <div class="row justify-content-md-center">
+                <div class="col-lg-auto col-md-auto col-sm-auto ">
                     <div style="background-color:#f0f0f0;" class="card h-100">
                         
                         <div style="padding-top:25px;max-height:25%;" class="title m-b-md d-md-none"> <!--Nur Mobil -->
