@@ -1,12 +1,13 @@
 @extends('layouts.main')
 @section('content')
+<div class="container">
 
 
 
-<div class="mt-5 container">
+</div>
+
+<div class="mt-5 container" style="font-family: Nunito">
     
-    
-
     <div class="row justify-content-md-center  ">
 
         
@@ -28,30 +29,31 @@
                 <ul  class="list-group border h-50 overflow-hidden bg-light">
                                        
                     
-                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
-                    <li class="list-group-item pt-1 pb-1">Responsive Design <span  title="Für Mobilgeräte optimiert">
+                    <li class="list-group-item py-1 px-5">Individuelle Gestaltung</li>
+                    <li class="list-group-item py-1 px-5">Responsive Design <span  title="Für Mobilgeräte optimiert">
                         <i class="fa fa-info-circle"></i></span></li>
                         
-                    <li class="list-group-item pt-1 pb-1">2 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
-                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
-                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5">2 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Kontaktformular</li>
+                    <li class="list-group-item py-1 px-5">Google Map Anbindung</li>
+                    <li class="list-group-item py-1 px-5">Impressum &amp; Datenschutz <span title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
                     
                     
                     
                 </ul>
 
+                 <!-- rounded-circle -->   
 
-                <div class="mt-mwst1 border bg-warning" > 
-                    <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
+                <div style="background-color:#f0f0f0;" class="mt-mwst1 border " > 
+                    <p style="text-align: center;">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                </div>   
 
 
@@ -80,27 +82,27 @@
                 <ul class="list-group border h-50 overflow-hidden bg-light">
                             
                     
-                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
-                    <li class="list-group-item pt-1 pb-1">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
+                    <li class="list-group-item py-1 px-5">Individuelle Gestaltung</li>
+                    <li class="list-group-item py-1 px-5">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
                         <i class="fa fa-info-circle"></i></span></li>
                         
-                    <li class="list-group-item pt-1 pb-1">8 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
-                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
-                    <li class="list-group-item pt-1 pb-1">News- / Blogsystem</li>
-                    <li class="list-group-item pt-1 pb-1">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern und Downloads"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Eintragung in Suchmaschinen </li>
-                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
-                    <li class="list-group-item pt-1 pb-1 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5">8 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Kontaktformular</li>
+                    <li class="list-group-item py-1 px-5">Google Map Anbindung</li>
+                    <li class="list-group-item py-1 px-5">News- / Blogsystem</li>
+                    <li class="list-group-item py-1 px-5">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern und Downloads"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Eintragung in Suchmaschinen </li>
+                    <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    <li class="list-group-item py-1 px-5 text-white ">1</li>
                     
                    
                </ul>
 
-               <div  class="mt-mwst2 border bg-warning"> 
+               <div style="background-color:#f0f0f0;" class="mt-mwst2 border "> 
                 <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">69.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                </div>   
                 
@@ -125,48 +127,31 @@
                 <ul class="list-group border h-50 overflow-hidden bg-light">
                                     
                     
-                    <li class="list-group-item pt-1 pb-1">Individuelle Gestaltung</li>
-                    <li class="list-group-item pt-1 pb-1">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
+                    <li class="list-group-item py-1 px-5">Individuelle Gestaltung</li>
+                    <li class="list-group-item py-1 px-5">Responsive Design <span class="" style="" title="Für Mobilgeräte optimiert">
                         <i class="fa fa-info-circle"></i></span></li>
                         
-                    <li class="list-group-item pt-1 pb-1">20 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Kontaktformular</li>
-                    <li class="list-group-item pt-1 pb-1">Google Map Anbindung</li>
-                    <li class="list-group-item pt-1 pb-1">News- / Blogsystem</li>
-                    <li class="list-group-item pt-1 pb-1">Userverwaltung </li>
-                    <li class="list-group-item pt-1 pb-1">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern etc."><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Eintragung in Suchmaschinen </li>
-                    <li class="list-group-item pt-1 pb-1">Erweiterbar durch Plugins</li>
-                    <li class="list-group-item pt-1 pb-1">2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item pt-1 pb-1">Sicherheitsupdates</li>
+                    <li class="list-group-item py-1 px-5">20 Unterseiten <span class="tooltips " style="" title="Mit ihrem Content"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Kontaktformular</li>
+                    <li class="list-group-item py-1 px-5">Google Map Anbindung</li>
+                    <li class="list-group-item py-1 px-5">News- / Blogsystem</li>
+                    <li class="list-group-item py-1 px-5">Userverwaltung </li>
+                    <li class="list-group-item py-1 px-5">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern etc."><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Eintragung in Suchmaschinen </li>
+                    <li class="list-group-item py-1 px-5">Erweiterbar durch Plugins</li>
+                    <li class="list-group-item py-1 px-5">2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>
                    
                </ul>
                 
-               <div class=" border bg-warning"> 
+               <div style="background-color:#f0f0f0;" class=" border "> 
                 <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">99.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
                </div>   
 
-            </div>   
-
-
-
-       
-
-            
-
-
-
-
+        </div>  
     </div>    
-
-
-
-
-
-
-
 </div>   
 
 
