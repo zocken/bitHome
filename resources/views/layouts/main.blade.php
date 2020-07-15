@@ -47,7 +47,6 @@
                         <li class="nav-item">
                           <a class="nav-link" href="{{ route('agb') }}">AGB</a>
                         </li>
-<<<<<<< HEAD
                         <li>
 
                         
@@ -55,12 +54,6 @@
                       </ul>
                       
                       
-=======
-                        
-                        
-                      </ul>
-                      
->>>>>>> eb0d759dd1e49dacd113619e3d25fbc1498a9271
                     </div>
                   </nav>
 

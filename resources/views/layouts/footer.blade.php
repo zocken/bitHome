@@ -1,5 +1,5 @@
 <!-- Footer -->
-<div class="container-fluid text-white bg-dark text-center fixed-bottom "> 
+<div class="container-fluid text-white bg-dark text-center fixed-bottom d-none d-sm-block"> 
 
 
   <img  class="" style="max-width: 300px;margin: -108px 0px 0px 0px"  src="{{asset('/public/img/cloud.png')}}" >  
@@ -21,7 +21,7 @@
    
    
   
-    <img  style="max-width: 300px;margin: -30px 0px 0px -50px" class="imageDivCloud"  src="{{asset('/public/img/cloud.png')}}" >  
+    <img  style="max-width: 300px;margin: -123px 0px 0px -50px" class="imageDivCloud"  src="{{asset('/public/img/cloud.png')}}" >  
       
   
   </div>
