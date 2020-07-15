@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div style="margin-bottom: 130px;" class="container">
+<div style="margin-bottom: 130px;" class="container text-center">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="card">
@@ -17,14 +17,11 @@ Im Spürkergarten 38-40<br />
 50374 Erftstadt<br />
 </p>
 <h2>Kontakt:</h2>
-<table><tr>
-<td><p>Telefon:</p></td>
-<td><p>02235/697494</p></td></tr>
-<tr><td><p>Telefax:</p></td>
-<td><p>02235/929864</p></td></tr>
-<tr><td><p>E-Mail:</p></td>
-<td><p>service@web-seo-it.de</p></td>
-</tr></table>
+
+<p>Telefon: 02235/697494</p>
+<p>Telefax: 02235/697495</p>
+<p>E-Mail:  service@web-seo-it.de</p>
+
 <h2>Umsatzsteuer-ID:</h2>
 <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
 DE194164041</p>

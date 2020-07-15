@@ -1,10 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="container">
 
-
-
-</div>
 
 <div class="mt-5 container" style="font-family: Nunito">
     
