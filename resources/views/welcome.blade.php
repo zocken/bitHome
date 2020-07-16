@@ -4,7 +4,7 @@
 <!-- Pricing -->
  <div class="container" id="pricing">
     <div class="row">
-        <div class="mt-5 col-12 text-center">
+        <div class="mt-2 col-12 text-center">
             <!--h1 class="display-4">Unser Angebot:</h1-->
         </div>
     </div>
