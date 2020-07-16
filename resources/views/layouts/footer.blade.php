@@ -1,13 +1,13 @@
 <!-- Footer -->
-<footer class="h-25 footer text-white bg-dark text-center ">
-  <div class="container">
+<footer class="h-25 footer text-black text-center " style="backdrop-filter:blur(3px)">
+  <div class="container" >
     
     <img  class="" style="max-width: 300px;margin: -108px 0px 0px 0px"  src="{{asset('/public/img/cloud.png')}}" >  
  
-  
+    
     <div >
-    <span style="font-size: 16px;" >&#169; 2020 Brüggen-IT</span><br/>
-    <span style="font-size: 16px;" >E-Mail: service@web-seo-it.de / Tel +492235497494</span>
+    <span style="font-size: 20px;" >&#169; 2020 Brüggen-IT</span><br/>
+    <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel +492235497494</span>
     
     </div>
 

@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -24,7 +25,7 @@
 
     </head>
     <body class="bg">        
-                  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                  <nav class="navbar navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
