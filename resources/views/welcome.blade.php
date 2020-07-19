@@ -4,11 +4,15 @@
 
 @if($errors->any())
     @foreach ($errors->all() as $error)
+
+    <div id="success" class="modal-dialog modal-dialog-centered">
         
     <div class="alert alert-danger" role="alert">
         {{ $error }}
 
     </div>    
+
+    </div>
     @endforeach
 @endif
 
@@ -153,7 +157,7 @@
                     <li class="list-group-item py-1 px-5">Mediencenter <span class="" style="" title="Zum Verwalten von Bildern etc."><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Impressum &amp; Datenschutz <span class="" style="" title="Texte von eRecht24"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Eintragung in Suchmaschinen </li>
-                    <li class="list-group-item py-1 px-5">Erweiterbar durch Plugins</li>
+                    <li class="list-group-item py-1 px-5">Aktives SEO Marketing</li>
                     <li class="list-group-item py-1 px-5">2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>

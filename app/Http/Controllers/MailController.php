@@ -12,14 +12,26 @@ class MailController extends Controller
     {
     
 
+        $this->validate($request, [
+            'inputMail' => 'required',
+            'inputName' => 'required',
+            'textareaNachricht' => 'required'
+        ],[
+            'required' => 'Bitte geben Sie einen Wert in das :attribute field ein.'
+         ]
+    
+    
+    );
+
+        
+
+
         $Mail = new Mail;
         
         $body = $request->input('textareaNachricht');
         $sender = $request->input('inputMail');
         $name = $request->input('inputName');
 
-        
- 
         $to_name = 'service';
         $to_email = 'service@web-seo-it.de';
         $data = array('name'=>$name, 'body'=> $body ,'sender' => $sender);
