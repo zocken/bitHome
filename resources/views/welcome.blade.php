@@ -2,7 +2,10 @@
 @section('content')
 
 
-@if($errors->any())
+
+
+<div style="margin-top: 75px;">
+    @if($errors->any())
     @foreach ($errors->all() as $error)
 
     <div id="success" class="modal-dialog modal-dialog-centered">
@@ -34,15 +37,10 @@
     @endif
 
     @include('cookieConsent::index') 
-
-
+</div>    
 <!-- Pricing -->
  <div class="container" id="pricing">
-    <div class="row">
-        <div class="mt-2 col-12 text-center">
-            <!--h1 class="display-4">Unser Angebot:</h1-->
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col-12">
             <div class="card-deck mb-3 py-5 text-center">
@@ -53,7 +51,7 @@
                     <div class="card-body py-5">
                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                      
-                            <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">19,90.-</span> 
+                            <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">19,90.-</span> 
                                 <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
                                 <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
                             
@@ -75,7 +73,7 @@
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
-                            <li class="list-group-item py-1 px-5 text-white ">1</li>
+                            
                         </ul>
                         
                       
@@ -97,7 +95,7 @@
 
                     <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                      
-                                     <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">35,90.-</span> 
+                                     <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">35,90.-</span> 
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
                                      
@@ -120,7 +118,7 @@
                     <li class="list-group-item py-1 px-5 text-white ">1</li>
                     <li class="list-group-item py-1 px-5 text-white ">1</li>
                     <li class="list-group-item py-1 px-5 text-white ">1</li>
-                    <li class="list-group-item py-1 px-5 text-white ">1</li>
+                    
                         </ul>
                         
                         <a onclick=input("Page2Rent\u00A0Medium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</a>
@@ -138,7 +136,7 @@
                     <div class="card-body py-5">
                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
                                      
-                                     <div class=""><span><span class="figure" style="font-size:45px; font-weight:bold">59,90.-</span> 
+                                     <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">59,90.-</span> 
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span> 
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
                                      
@@ -159,7 +157,6 @@
                     <li class="list-group-item py-1 px-5">Eintragung in Suchmaschinen </li>
                     <li class="list-group-item py-1 px-5">Aktives SEO Marketing</li>
                     <li class="list-group-item py-1 px-5">2 Content-Updates <span class="" style="" title="Der Inhalt wird bis zu 2x pro Monat (bis zu 1 Std.) für Sie aktualisiert"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item py-1 px-5">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>
                         </ul>
                         

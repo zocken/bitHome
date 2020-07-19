@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div style="margin-bottom: 130px;" class="container text-center">
+<div style="margin-top: 95px; margin-bottom: 130px;" class="container text-center">
     <div class="row justify-content-center">
         <div class="col-12">
             <div class="card">

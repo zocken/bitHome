@@ -27,8 +27,12 @@
     </head>
     <body class="bg">   
        
-                  <nav class="navbar navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
-                    
+                  <nav class="navbar  fixed-top navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
+                    <a class="navbar-brand" href="#">
+                      
+                      <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
+                     
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -57,19 +61,11 @@
                       
 
                     </div>
-                  </nav>
-                  <div class="container-fluid">
+                  
                     
-                    <div class="row">
-                     
-                        <div class="text-center col-12 ">
-                            <img style="position:absolute; max-width:100px;margin: -105px 0px 0px -50px" class="imageDivCloud" src="{{asset('/public/img/bit.png')}}">
-                           
-                          </div>
-                
-                    </div>  
-                
-                  </div>
+                    
+                  </nav>
+                  
 
 
 
