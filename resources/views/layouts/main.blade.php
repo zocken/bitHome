@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -25,7 +25,8 @@
         <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
 
     </head>
-    <body class="bg">        
+    <body class="bg">   
+       
                   <nav class="navbar navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,23 +46,26 @@
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
-                        </li>
+                         </li>
                         <li>
-
                         
-                        </li> 
+                        
+                        </li>
+                       
                       </ul>
                       
                       
+
                     </div>
                   </nav>
                   <div class="container-fluid">
-
-                    <div class="row">
                     
+                    <div class="row">
+                     
                         <div class="text-center col-12 ">
                             <img style="position:absolute; max-width:100px;margin: -105px 0px 0px -50px" class="imageDivCloud" src="{{asset('/public/img/bit.png')}}">
-                        </div>
+                           
+                          </div>
                 
                     </div>  
                 

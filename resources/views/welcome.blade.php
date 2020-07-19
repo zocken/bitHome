@@ -29,7 +29,7 @@
 
     @endif
 
-
+    @include('cookieConsent::index') 
 
 
 <!-- Pricing -->
@@ -172,5 +172,5 @@
             </div>
         </div>
         @include('layouts.kontakt')           
-
+       
 @endsection
