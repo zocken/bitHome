@@ -33,3 +33,10 @@ Route::get('/impressum', function () {
 Route::get('/agb', function () {
     return view('layouts.agb');
 })->name('agb');
+
+Route::get('/dsgvo', function () {
+    return view('layouts.datenschutz');
+})->name('dsgvo');
+
+
+Route::post('lara-email-send', 'MailController@sendEmail')->name('sendOrderMail');

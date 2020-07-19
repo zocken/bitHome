@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
     <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
@@ -42,6 +43,9 @@
                         <li class="nav-item">
                           <a class="nav-link" href="{{ route('agb') }}">AGB</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
+                        </li>
                         <li>
 
                         
@@ -66,6 +70,8 @@
 
 
 @yield('content')
+
+
 
 
 </div>

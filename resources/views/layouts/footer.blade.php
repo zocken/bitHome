@@ -17,17 +17,13 @@
 
 
 
-  <script type="text/javascript"> 
-    $(document).ready(function() { 
-    $('#animate').animate({ 
-    opacity: 1,'height':'+=200px',}, 8000, function() { 
-    $('#animate').animate({ 
-    opacity: 0.5, marginTop: "+=100px",marginLeft: "-=280px",'height':'+=300px',}, 4000, function() { 
-    $('#animate').animate({ 
-    opacity: 0.1,marginTop: "-=100px",marginLeft: "-=270px",'height':'+=300px',},3500, function () { 
-    $('#animate').animate({ 
-    opacity: 1,marginLeft: "+=1150px",marginTop: "-=350px",'height':'-=1900px'},1500); 
-    })})})});
-    </script>
+<script>
+  function input(pakNrS){
+      
+      var text = "Sehr geehrte Damen und Herren, \n ich habe mich für das Paket " + pakNrS +" entschieden und möchte Sie bitten \n mit mir in Kontakt zu treten. \n Meine Telefonnummer lautet: \n Mit freundlichen Grüßen";
+      document.forms.orderform.textareaNachricht.value = text;
+  }  
+
+  </script>
 
 <!-- Footer -->

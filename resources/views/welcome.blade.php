@@ -1,6 +1,37 @@
 @extends('layouts.main')
 @section('content')
 
+
+@if($errors->any())
+    @foreach ($errors->all() as $error)
+        
+    <div class="alert alert-danger" role="alert">
+        {{ $error }}
+
+    </div>    
+    @endforeach
+@endif
+
+
+    @if (session('sucessMsg'))
+
+
+        <div id="success" class="modal-dialog modal-dialog-centered">
+      
+        <div class="alert alert-success" role="alert">
+        {{ session ('sucessMsg')}}
+        </div>
+
+        </div>
+
+    
+
+
+    @endif
+
+
+
+
 <!-- Pricing -->
  <div class="container" id="pricing">
     <div class="row">
@@ -42,7 +73,10 @@
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</button>
+                        
+                      
+                      <a onclick=input("Page2Rent\u00A0Starter") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</a> 
+                           
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border "> 
                         <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
@@ -84,7 +118,8 @@
                     <li class="list-group-item py-1 px-5 text-white ">1</li>
                     <li class="list-group-item py-1 px-5 text-white ">1</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</button>
+                        
+                        <a onclick=input("Page2Rent\u00A0Medium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</a>
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border "> 
                         <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">69.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
@@ -123,7 +158,12 @@
                     <li class="list-group-item py-1 px-5">Schulung <span class="" style="" title="1 Stunde im Umgang mit der Webseite"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5">Sicherheitsupdates</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</button>
+                        
+                        
+                            <a onclick=input("Page2Rent\u00A0Premium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">Paket wählen</a>
+                        
+                        
+                            
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border "> 
                         <p style="text-align: center; ">Einmalige Einrichtungsgebühr:<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">99.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">Preise zzgl. MwSt.</span></p>
@@ -131,6 +171,6 @@
                 </div>
             </div>
         </div>
-           
+        @include('layouts.kontakt')           
 
 @endsection
