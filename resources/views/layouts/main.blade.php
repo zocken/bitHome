@@ -25,9 +25,9 @@
         <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
 
     </head>
-    <body class="bg">   
+    <body class="bg" >   
        
-                  <nav class="navbar  fixed-top navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
+                  <nav id="menu" class="navbar  fixed-top navbar-expand-md navbar-light" style="font-size: 20px; backdrop-filter:blur(3px)">
                     <a class="navbar-brand" href="#">
                       
                       <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
