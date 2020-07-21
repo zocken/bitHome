@@ -8,48 +8,153 @@ use Mail;
 
 class MailController extends Controller
 {
+
+    public function sendMailAfterVerification(Request $request, $id)
+    {
+
+     
+        //$request->segment(2)) andere Möglichkeit den parameter abzuholen
+
+        $file = fopen("./verified/" . $id, "r");
+        $data = array();
+
+        while (!feof($file)) {
+            $data[] = fgetcsv($file, null, ';');
+        }
+        
+        fclose($file);
+
+        $body = $data[0][2];
+        $sender = $data[0][0];
+        $name = $data[0][1];
+
+        $data_to_send = array('name'=>$name, 'body'=> $body ,'sender' => $sender);
+
+        $to_name = 'service';
+            $to_email = 'service@web-seo-it.de';
+        Mail::send('layouts.email', $data_to_send, function($message) use ($to_name, $to_email) {
+            $message->to($to_email, $to_name)->subject('Anfrage WebPack');
+            $message->from('service@web-seo-it.de', config('app.name'));
+        });
+
+        unlink("./verified/" . $id);
+
+        if (Mail::failures()) {
+            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde nicht versandt. Versuchen Sie es bitte nocheinmal. Sollte das Problem weiterhin bestehen wenden Sie sich bitte per E-mail an service@web-seo-it.de oder rufen Sie uns an.');
+        }else{
+            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde erfolgreich versandt. Vielen Dank für die Anfrage');
+        
+        }
+
+        
+        
+
+
+        
+
+    }
+
+    public function veryfyMailAdress(Request $request)
+    {
+
+        $sender = $request->input('inputMail');
+        $name = $request->input('inputName');
+        $body = $request->input('textareaNachricht');
+
+        $changedLetters = array('.', '@',' ');
+        $rotString = $sender . $name;
+
+        
+        $filename = str_rot13($rotString);
+        $changedFilename = htmlentities(htmlspecialchars(str_replace($changedLetters, "ymf", $filename , $count)));
+        
+
+
+        if (file_exists ($changedFilename))
+        {
+        
+            $result=true;
+            return ($result);
+
+        }else
+        {
+            $Mail = new Mail;
+
+            /*$datei = fopen("./verified/" . $changedFilename ,"w");
+            file_put_contents("./verified/" . $changedFilename , $sender . ";" . $name . ";" . $body. ";");
+            fclose($datei);*/
+            
+            $daten = array($sender, $name, $body);
+            $fp = fopen("./verified/" . $changedFilename, 'a');
+            fputcsv($fp, $daten,";");
+            fclose($fp);
+            
+
+
+            $to_name = $name;
+            $to_email = $sender;
+            $data = array('filename' => $changedFilename);
+            Mail::send('layouts.verifyemail', $data, function($message) use ($to_name, $to_email) {
+                $message->to($to_email, $to_name)->subject('E-Mail Verification');
+                $message->from('service@web-seo-it.de', config('app.name'));
+            });  
+
+            $result=false;
+            return ($result);
+        
+        }    
+        
+
+    }
+
+
     public function sendEmail(Request $request)
     {
     
 
         $this->validate($request, [
-            'inputMail' => 'required',
+            'inputMail' => 'required|email',
             'inputName' => 'required',
             'textareaNachricht' => 'required'
         ],[
             'required' => 'Bitte geben Sie einen Wert in das :attribute field ein.'
          ]
-    
-    
-    );
+        );
 
         
-
-
-        $Mail = new Mail;
-        
-        $body = $request->input('textareaNachricht');
-        $sender = $request->input('inputMail');
-        $name = $request->input('inputName');
-
-        $to_name = 'service';
-        $to_email = 'service@web-seo-it.de';
-        $data = array('name'=>$name, 'body'=> $body ,'sender' => $sender);
-        
-       if (config('myGlobal.myLogging') =='on')
+       if  ($verified =$this->veryfyMailAdress($request))
        {
-            info("Inhalt:" . $body . $name . $sender);
-       };
-        
-       Mail::send('layouts.email', $data, function($message) use ($to_name, $to_email) {
-            $message->to($to_email, $to_name)->subject('Anfrage WebPack');
-            $message->from('service@web-seo-it.de', config('app.name'));
-        });
 
-        if (Mail::failures()) {
-            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde nicht versandt. Versuchen Sie es bitte nocheinmal. Sollte das Problem weiterhin bestehen wenden Sie sich bitte per E-mail an service@web-seo-it.de oder rufen Sie uns an.');
-         }else{
-            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde erfolgreich versandt. Vielen Dank für die Anfrage');
-        }
+            $Mail = new Mail;
+        
+            $body = $request->input('textareaNachricht');
+            $sender = $request->input('inputMail');
+            $name = $request->input('inputName');
+
+            $to_name = 'service';
+            $to_email = 'service@web-seo-it.de';
+            $data = array('name'=>$name, 'body'=> $body ,'sender' => $sender);
+        
+            if (config('myGlobal.myLogging') =='on')
+            {
+                info("Inhalt:" . $body . $name . $sender);
+            };
+        
+            Mail::send('layouts.email', $data, function($message) use ($to_name, $to_email) {
+                $message->to($to_email, $to_name)->subject('Anfrage WebPack');
+                $message->from('service@web-seo-it.de', config('app.name'));
+            });
+
+            if (Mail::failures()) {
+                return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde nicht versandt. Versuchen Sie es bitte nocheinmal. Sollte das Problem weiterhin bestehen wenden Sie sich bitte per E-mail an service@web-seo-it.de oder rufen Sie uns an.');
+            }else{
+                return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde erfolgreich versandt. Vielen Dank für die Anfrage');
+            
+            }
+        }else
+        {
+            return Redirect(route('bithome'))->with('sucessMsg', 'Ihre E-Mailadresse wurde noch nicht verifiziert, deshalb haben wir ihnen eine E-Mail mit einem Link zur Verifizierung zugesandt. Bitte klicken Sie auf diesen um die angegebene E-Mail Adresse als die ihrige zu bestätigen.');
+    
+        };
     }
 }

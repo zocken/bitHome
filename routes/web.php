@@ -40,3 +40,4 @@ Route::get('/dsgvo', function () {
 
 
 Route::post('lara-email-send', 'MailController@sendEmail')->name('sendOrderMail');
+Route::get('verify/{id}', 'MailController@sendMailAfterVerification')->name('MailController@sendMailAfterVerification');
