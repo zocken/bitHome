@@ -3,17 +3,17 @@
   
 
 
-  <div class="container" >
+  <div class="container-fluid" >
 
     <div class="row">
     
-        <div class="text-black mt-5 col-2">
+        <div class="text-black text-left mt-3 col-2 d-none d-sm-block">
 
           <a target=" _blank" style="color:black; font-size: 20px;" href="https://nexo.io/nexo-card?referral=UR8UhlY&refSource=copy">nexo-card</a>
 
         </div> 
         
-        <div class="col-10">
+        <div class="col-lg-8 col-sm-12">
           <img  style="max-width: 300px;margin: -108px 0px 0px 0px"  src="{{asset('/public/img/cloud.png')}}" >  
  
     
