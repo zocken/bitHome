@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="h-25 footer text-black text-center " style="backdrop-filter:blur(3px)">
+<footer id="blured" class="h-25 footer text-black text-center " >
   
 
 
@@ -19,7 +19,7 @@
     
           <div >
             <span style="font-size: 20px;" >&#169; 2020 Brüggen-IT</span><br/>
-            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel +492235497494</span>
+            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel +492235697494</span>
     
           </div>
 

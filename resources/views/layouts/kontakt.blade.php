@@ -1,6 +1,6 @@
 <div style="backdrop-filter:blur(3px)" class="mb-5 center-block col-12">
     <div class="container">
-        <div class="row seitenAbschnitt py-5 backdrop-filter:blur(3px)">
+        <div id="blured" class="row seitenAbschnitt py-5">
             <div class="col-sm-4 ">
                 <h3 class="bg-white p-1">Kontaktanfrage</h3>
                 <p class="bg-white p-1">Über dieses Formular kannst du deinen Bestellwunsch an uns übermitteln.</p>
