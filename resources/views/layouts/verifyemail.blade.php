@@ -7,12 +7,12 @@
 Sehr geehrte Damen und Herren,
     
 
-    Bitte bestätigen Sie ihre E-Mail Adresse durch Klick auf den folgenden Link: <a href="https://192.168.178.24/bithome/verify/{{$filename}}">Bitte klicken Sie hier um ihre E-Mail Adresse zu verifizieren</a>
+    Bitte bestätigen Sie ihre E-Mail Adresse durch Klick auf den folgenden Link: <a href="https://www.web-seo-it.de/bithome/verify/{{$filename}}">Bitte klicken Sie hier um ihre E-Mail Adresse zu verifizieren</a>
     
     <br/>
     Sollte dies nicht funktionieren kopieren Sie bitte den nachfolgenden Link in die Adressleiste ihres Browsers.
     <br/>
-    https://192.168.178.24/bithome/verify/{{$filename}}
+    https://www.web-seo-it.de/bithome/verify/{{$filename}}
 
 Mit freundlichen Grüßen
 B-IT Service
