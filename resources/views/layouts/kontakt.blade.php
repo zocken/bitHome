@@ -16,7 +16,7 @@
                     <div class="form-group">
                         <label for="inputMail">E-Mail-Adresse</label>
                         <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="E-Mail-Adresse eingeben" aria-describedby="emailHilfe">
-                        <small id="emailHilfe" class="form-text text-muted">Ihre E-Mail Adresse ist bei uns in sicheren Händen!</small>
+                        
                     </div>
                     <div class="form-group">
                         <label for="textareaNachricht">Ihre Nachricht</label>
