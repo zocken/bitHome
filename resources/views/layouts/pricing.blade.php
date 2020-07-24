@@ -2,8 +2,8 @@
 <div class="container"  id="pricing">
     
     <div class="row" >
-        <div class="col-12">
-            <div class="card-deck mb-3 py-5 text-center">
+        <div class="col-12 ">
+            <div class="blured card-deck mb-3 py-5 text-center">
                 <div class="card mb-4 shadow-sm app-package">
                     <div class="card-header bg-dark text-white">
                         <h4 class="my-0 font-weight-normal">Page2Rent Starter</h4>

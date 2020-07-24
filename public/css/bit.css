@@ -37,12 +37,17 @@ padding: 0;
 }
 
 
-#blured{
+.blured{
     backdrop-filter:blur(3px);
     -webkit-backdrop-filter: blur(3px);
 }
   
 
+.transparent
+{
 
+    background:transparent;
+
+}
 
 

@@ -27,7 +27,7 @@
     </head>
     <body class="bg" >   
        
-                  <nav id="blured" class="navbar  fixed-top navbar-expand-md navbar-light" style="font-size: 20px;">
+                  <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:150; font-size: 20px;">
                     <a class="navbar-brand" href="#">
                       
                       <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
@@ -43,27 +43,26 @@
                           <a class="nav-link" href="{{ route('bithome') }}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="{{ route('impressum') }}">Impressum</a>
+                          <a class="nav-link" href="#pricing">Preise</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="{{ route('agb') }}">AGB</a>
+                          <a class="nav-link" href="#orderform">Kontakt</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
+                        <li class="nav-item d-block d-sm-none">
+                          <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
+                        </li>
+                        <li class="nav-item d-block d-sm-none">
+                          <a class="text-dark nav-link" href="{{ route('agb') }}">AGB</a>
+                        </li>
+                        <li class="nav-item d-block d-sm-none">
+                          <a class="text-dark nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
                          </li>
-                        <li>
+                        
                         
                         
                         </li>
-                       
                       </ul>
-                      
-                      
-
                     </div>
-                  
-                    
-                    
                   </nav>
                   
 

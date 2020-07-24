@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer id="blured" class="h-25 footer text-black text-center " >
+<footer  class="blured h-25 footer text-center " >
   
 
 
@@ -7,9 +7,23 @@
 
     <div class="row">
     
-        <div class="text-black text-left mt-3 col-2 d-none d-sm-block">
+        <div class="text-left mt-3 col-2 d-none d-sm-block">
 
-          <a target=" _blank" style="color:black; font-size: 20px;" href="https://nexo.io/nexo-card?referral=UR8UhlY&refSource=copy">nexo-card</a>
+         <ul style="font-size: 20px;" class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="{{ route('agb') }}">AGB</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
+             </li>
+            <li>
+            
+            
+            </li>
+          </ul>
 
         </div> 
         
@@ -19,7 +33,7 @@
     
           <div >
             <span style="font-size: 20px;" >&#169; 2020 Brüggen-IT</span><br/>
-            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel +492235697494</span>
+            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel (++49)2235697494</span>
     
           </div>
 
@@ -27,7 +41,7 @@
 
     </div>
 
-
+  </div>
 
 </footer>
 

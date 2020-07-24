@@ -1,43 +1,75 @@
-<!-- Features -->
-<div class="container-fluid mb-5" id="features">
-    <div  class="row text-white text-center feature">
-        <div style="border-radius: 0px 0px 21px 21px;" class=" col-md-5 bg-secondary  offset-md-1 feature-text">
-            <h3 class="mb-5">Individuelle Homepage</h3>
-            <p class="px-5 mb-5">Du möchtest dich mit deinem Medienauftritt von Anderen abheben? Kein Problem.
-                Entscheide dich für eine unserer Mietwebseiten – modern | ansprechend | auf den Punkt
-    
-                Die perfekte Lösung für alle, die eine professionelle Webseite zu geringen monatlichen Festkosten benötigen. Behalten Sie die volle Kostenkontrolle und schonen Ihre liquiden Mittel für laufende betriebliche Ausgaben!
-                Mieten Sie sich doch einfach eine individuell auf Ihr Unternehmen zugeschnittene Webseite bei B-IT rap, anstatt sich eine neue Webseite für mehrere Tausend Euro erstellen zu lassen.
-            
-                Einfach gesagt: Sie können sich ganz auf Ihre Arbeit und Ihre Kernkompetenz konzentrieren und müssen nicht noch zusätzlich Webdesigner, Grafiker, IT-Systemadministrator und Webmaster sein!
-    Ganz nebenbei bemerkt: Langfristig gesehen ist es in der heutigen Zeit günstiger als eine Webseite zu kaufen.
-    
-    Wir kümmern uns um das Layout, eine optimale Darstellung der Website auf Mobilgeräten, die Anordnung der Texte und um die gesamte Technik im Hintergrund.
-    Leichte Bedienbarkeit
-    Eine Web2Rent Internetseite ist leicht zu bedienen – Können Sie mit Word oder einem anderen Textprogramm Briefe schreiben? Dann können Sie auch mit Ihrer gemieteten Web2Rent Webseite umgehen!
-    </p>
-            <a  href="#pricing" class="bg-white btn btn-outline">Preismodelle</a> 
+ 
+ 
+ <div class="container" style="margin-top:150px; margin-bottom:50px;">
+ <div class="row">
+
+    <div class="blured mx-auto text-center col-sm-12">
+
+        <h1>Rent a Webpage</h1><br/>
+        <h2>Welche Vorteile bringt Ihnen das mieten einer Webseite</h2>
+
+    </div>    
+
+
+</div>
+
+ </div>   
+ <div class="container blured" style="margin-bottom:100px;">
+    <div class="row seitenAbschnitt text-center align-items-center" id="service">
+        <div class="col-sm-4">
+            <i class="fas fa-money-bill-alt fa-5x mb-3"></i>
+            <h4>Für jedes Budget geeignet</h4>
+            <a data-toggle="collapse" href="#details11" role="button" aria-expanded="false" class="text-dark" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details11">
+                Durch das Konzept der Website-Vermietung zahlen Sie nur einen kleinen monatlichen Festpreis. So können sich auch kleinere Unternehmen eine hochwertige Website leisten.
+            </div>
         </div>
-        <div class="col-md-5" style="display: flex; flex-direction: column">
-            <div class="bg-secondary mx-auto" style="width: 300px; height: 250px; border-radius: 21px 21px 0 0; position: relative; margin-top: auto;"></div>
+        <div class="col-sm-4">
+            <i class="fas fa-pencil-ruler fa-5x mb-3"></i>
+            <h4>Flexibel, anpassbar an ihre Bedürfnisse angepasst</h4>
+            <a data-toggle="collapse" href="#details12" role="button" aria-expanded="false" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details12">
+                Bei uns bezahlen Sie nur für die Optionen, die Sie für Ihre neue Website benötigen.
+                Deshalb haben wir ein Mietmodell eingeführt. Damit sparen Sie sich einmalige hohe Anschaffungskosten. Auch Ihre Webpräsenz bleibt immer auf den neuesten technischen Stand.
+                Konzentrieren Sie sich auf Ihr tägliches Geschäft und wir übernehmen die Pflege Ihrer Website.
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <i class="fas fa-object-group fa-5x mb-3"></i>
+            <h4>Immer modernstes Webdesign</h4>
+            <a data-toggle="collapse" href="#details13" role="button" aria-expanded="false" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details13">
+                Unser Ziel ist es, qualitativ hochwertige Websites zu erstellen, die sich jeder leisten kann. Um dies zu erreichen setzen wir modernste Entwicklungssoftware und Techniken ein.
+            </div>
         </div>
     </div>
-    <div class="row  text-center feature">
-        <div class="col-md-5 offset-md-1" style="display: flex; flex-direction: column">
-            <div class="bg-dark mx-auto" style="width: 300px; height: 250px; border-radius: 0 0 21px 21px ; position: relative; margin-buttom: auto;"></div>
+</div>
+<div class="container blured" style="margin-bottom:100px;">
+    <div class="row seitenAbschnitt text-center align-items-center" id="service">
+        <div class="col-sm-4">
+            <i class="fas fa-edit fa-5x mb-3"></i>
+            <h4>Sie müssen nichts selbst erledigen</h4>
+            <a data-toggle="collapse" href="#details1" role="button" aria-expanded="false" class="text-dark" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details1">
+                Kleine Änderungen führen wir für Sie durch, größere je noch gewähltem Plan.
+            </div>
         </div>
-        <div style="border-radius: 21px 21px 0 0; "class="col-md-5 bg-dark feature-text">
-            <h3 class="mb-5">Für Sie gemacht</h3>
-            <p class=" px-5 mb-5">Individuelles Design
-                Jeder Onlineauftritt wird individuell an das vorhandene Corporate-Design angepasst. Somit haben Sie eine professionelle Website mit hohem Wiedererkennungswert und können Ihr Unternehmen optimal präsentieren.
-                
-                Premium Support
-                Keine Angst, wir lassen Sie nicht allein auf das Internet los! Sie erhalten umfassenden Support für Ihr Web2Rent Projekt. Fragen Sie uns, wenn Sie mal etwas nicht wissen oder etwas nicht funktioniert.
-                
-                Modular erweiterbar
-                Im Laufe der Zeit ändert sich der Bedarf an eine Website. Mit unserem Web2Rent System lässt sich zu jeder Zeit dieser Bedarf modular anpassen bzw. der Funktionsumfang der Website erweitern. </p>
-            
-            <a  href="#orderform" class="bg-white btn btn-outline-white">Kontakt aufnehmen</a> 
+        <div class="col-sm-4">
+            <i class="fas fa-newspaper fa-5x mb-3"></i>
+            <h4>Transparent informiert, Marketing inclusive</h4>
+            <a data-toggle="collapse" href="#details2" role="button" aria-expanded="false" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details2">
+                Einmal im Monat erhalten Sie einen Bericht von uns. Dort können Sie alle wichtigen Daten sehen, wie die Anzahl der Besucher oder aktuelle Rankings.
+                Je nach gewähltem Plan betreiben wir aktives SEO für Sie.
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <i class="fas fa-folder-open fa-5x mb-3"></i>
+            <h4>Immer auf dem neuesten Stand</h4>
+            <a data-toggle="collapse" href="#details3" role="button" aria-expanded="false" aria-controls="collapse">Mehr erfahren...</a>
+            <div class="collapse my-2" id="details3">
+                Die Wartung ist bereits inbegriffen. Dank regelmäßiger Updates und Backups ist Ihre Website immer auf dem neuesten Stand und sicher.
+            </div>
         </div>
     </div>
 </div>
