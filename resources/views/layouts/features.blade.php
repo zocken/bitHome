@@ -1,6 +1,6 @@
  
  
- <div class="container" style="margin-top:150px; margin-bottom:50px;">
+ <div class="container" style="margin-top:125px; margin-bottom:50px;">
  <div class="row">
 
     <div class="blured mx-auto text-center col-sm-12">
@@ -75,9 +75,9 @@
     </div>
 </div>
 
-    
-    <div style="margin-bottom:100px;" class="d-block d-sm-none"></div>
+     
+    <div style="margin-bottom:0px;" class="d-block d-sm-none"></div>
     <div style="margin-bottom:100px;" class="d-none d-sm-block d-md-none"></div>
-    <div style="margin-bottom:220px;" class="d-none d-md-block d-lg-none"></div>
-    <div style="margin-bottom:275px;" class="d-lg-block d-xl-none"></div>
-    <div style="margin-bottom:325px;" class="d-xl-block"></div>  
+    <div style="margin-bottom:420px;" class="d-none d-md-block d-lg-none"></div>
+    <div style="margin-bottom:275px;" class="d-none d-lg-block d-xl-none"></div>
+    <div style="margin-bottom:325px;" class="d-none d-xl-block"></div>  

@@ -4,8 +4,8 @@
         <div style="margin-bottom:100px;" class="d-block d-sm-none"></div>
         <div style="margin-bottom:100px;" class="d-none d-sm-block d-md-none"></div>
         <div style="margin-bottom:175px;" class="d-none d-md-block d-lg-none"></div>
-        <div style="margin-bottom:225px;" class="d-lg-block d-xl-none"></div>
-        <div style="margin-bottom:275px;" class="d-xl-block"></div>  
+        <div style="margin-bottom:225px;" class="d-none d-lg-block d-xl-none"></div>
+        <div style="margin-bottom:275px;" class="d-none d-xl-block"></div>  
 
         <div  class="blured row seitenAbschnitt py-5">
             <div class="col-sm-4 ">
