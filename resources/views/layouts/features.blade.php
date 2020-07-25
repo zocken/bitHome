@@ -14,7 +14,8 @@
 </div>
 
  </div>   
- <div class="container blured" style="margin-bottom:100px;">
+
+<div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">
             <i class="fas fa-money-bill-alt fa-5x mb-3"></i>
@@ -44,7 +45,7 @@
         </div>
     </div>
 </div>
-<div class="container blured" style="margin-bottom:100px;">
+<div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">
             <i class="fas fa-edit fa-5x mb-3"></i>
@@ -73,3 +74,10 @@
         </div>
     </div>
 </div>
+
+    
+    <div style="margin-bottom:100px;" class="d-block d-sm-none"></div>
+    <div style="margin-bottom:100px;" class="d-none d-sm-block d-md-none"></div>
+    <div style="margin-bottom:220px;" class="d-none d-md-block d-lg-none"></div>
+    <div style="margin-bottom:275px;" class="d-lg-block d-xl-none"></div>
+    <div style="margin-bottom:325px;" class="d-xl-block"></div>  

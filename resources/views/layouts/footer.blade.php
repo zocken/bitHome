@@ -7,7 +7,7 @@
 
     <div class="row">
     
-        <div class="text-left mt-3 col-2 d-none d-sm-block">
+        <div class="text-left mt-3 col-2 d-none d-lg-block">
 
          <ul style="font-size: 20px;" class="navbar-nav mr-auto">
             <li class="nav-item">

@@ -26,8 +26,16 @@
 
     </head>
     <body class="bg" >   
+      <div id="size-debugger-bs4" style="display:none; position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
+        <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
+        <span class="naderio-vp-bs4 d-block d-sm-none">XS</span>
+        <span class="naderio-vp-bs4 d-none d-sm-block d-md-none">SM</span>
+        <span class="naderio-vp-bs4 d-none d-md-block d-lg-none">MD</span>
+        <span class="naderio-vp-bs4 d-none d-lg-block d-xl-none">LG</span>
+        <span class="naderio-vp-bs4 d-none d-xl-block">XL</span>
+</div>  
        
-                  <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:150; font-size: 20px;">
+                  <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:50; font-size: 20px;">
                     <a class="navbar-brand" href="#">
                       
                       <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
@@ -46,15 +54,15 @@
                           <a class="nav-link" href="#pricing">Preise</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#orderform">Kontakt</a>
+                          <a class="nav-link" href="#kontakt">Kontakt</a>
                         </li>
-                        <li class="nav-item d-block d-sm-none">
+                        <li class="nav-item d-block d-lg-none">
                           <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
                         </li>
-                        <li class="nav-item d-block d-sm-none">
+                        <li class="nav-item d-block d-lg-none">
                           <a class="text-dark nav-link" href="{{ route('agb') }}">AGB</a>
                         </li>
-                        <li class="nav-item d-block d-sm-none">
+                        <li class="nav-item d-block d-lg-none">
                           <a class="text-dark nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
                          </li>
                         

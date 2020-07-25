@@ -1,10 +1,13 @@
 <!-- Pricing -->
-<div class="container"  id="pricing">
+<div id="pricing" class="bg-transparent blured border">
+
+</div>
+<div class="container mt-5">
     
     <div class="row" >
-        <div class="col-12 ">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 col-xl-12">
             <div class="blured card-deck mb-3 py-5 text-center">
-                <div class="card mb-4 shadow-sm app-package">
+                <div class="card mb-4 shadow-sm app-package ">
                     <div class="card-header bg-dark text-white">
                         <h4 class="my-0 font-weight-normal">Page2Rent Starter</h4>
                     </div>
@@ -132,3 +135,6 @@
                 </div>
             </div>
         </div>
+
+
+        
