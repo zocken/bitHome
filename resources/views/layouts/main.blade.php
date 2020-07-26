@@ -7,9 +7,9 @@
         <meta name="msapplication-TileImage" content="/_icons/win8-tile-144x144.png"/>
         <meta name="msapplication-TileColor" content="#000000"/>
         <meta name="msapplication-navbutton-color" content="#e34f4f"/>
-        <meta name="application-name" content="Reant a Page"/>
-        <meta name="msapplication-tooltip" content="Reant a Page"/>
-        <meta name="apple-mobile-web-app-title" content="Reant a Page"/>
+        <meta name="application-name" content="Rent a Page"/>
+        <meta name="msapplication-tooltip" content="Rent a Page"/>
+        <meta name="apple-mobile-web-app-title" content="Rent a Page"/>
         <meta name="msapplication-square70x70logo" content="{{asset('/public/img/icons/win8-tile-70x70.png')}}"/>
         <meta name="msapplication-square144x144logo" content="{{asset('/public/img/icons/win8-tile-70x70.pngwin8-tile-144x144.png')}}"/>
         <meta name="msapplication-square150x150logo" content="{{asset('/public/img/icons/win8-tile-150x150.png')}}"/>
