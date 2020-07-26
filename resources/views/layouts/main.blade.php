@@ -4,15 +4,55 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta name="msapplication-TileImage" content="/_icons/win8-tile-144x144.png"/>
+        <meta name="msapplication-TileColor" content="#000000"/>
+        <meta name="msapplication-navbutton-color" content="#e34f4f"/>
+        <meta name="application-name" content="Reant a Page"/>
+        <meta name="msapplication-tooltip" content="Reant a Page"/>
+        <meta name="apple-mobile-web-app-title" content="Reant a Page"/>
+        <meta name="msapplication-square70x70logo" content="{{asset('/public/img/icons/win8-tile-70x70.png')}}"/>
+        <meta name="msapplication-square144x144logo" content="{{asset('/public/img/icons/win8-tile-70x70.pngwin8-tile-144x144.png')}}"/>
+        <meta name="msapplication-square150x150logo" content="{{asset('/public/img/icons/win8-tile-150x150.png')}}"/>
+        <meta name="msapplication-wide310x150logo" content="{{asset('/public/img/icons/win8-tile-310x150.png')}}"/>
+        <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
+        <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
+    
+        <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
+        <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   
-<link rel="apple-touch-icon" sizes="152x152" href="{{asset('/public/apple-touch-icon-152x152-precomposed.png')}}" />
+
+
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('/public/img/icons/favicon.ico')}}"/>
+<link rel="icon" type="image/x-icon" href="{{asset('/public/img/icons/favicon.ico')}}"/>
+<link rel="icon" type="image/gif" href="{{asset('/public/img/icons/favicon.gif')}}"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon.png')}}"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon.png')}}"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-57x57.png')}}" sizes="57x57"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-60x60.png')}}" sizes="60x60"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-72x72.png')}}" sizes="72x72"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-76x76.png')}}" sizes="76x76"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-114x114.png')}}" sizes="114x114"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-120x120.png')}}" sizes="120x120"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-128x128.png')}}" sizes="128x128"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-144x144.png')}}" sizes="144x144"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-152x152.png')}}" sizes="152x152"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-180x180.png')}}" sizes="180x180"/>
+<link rel="apple-touch-icon" href="{{asset('/public/img/icons/apple-touch-icon-precomposed.png')}}"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-16x16.png')}}" sizes="16x16"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-32x32.png')}}" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-96x96.png')}}" sizes="96x96"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-160x160.png')}}" sizes="160x160"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-192x192.png')}}" sizes="192x192"/>
+<link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-196x196.png')}}" sizes="196x196"/>
+
+
+
+
+
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
