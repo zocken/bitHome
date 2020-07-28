@@ -66,6 +66,7 @@
 
     </head>
     <body class="bg" >   
+      
       <div id="size-debugger-bs4" style="display:none; position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
         <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
         <span class="naderio-vp-bs4 d-block d-sm-none">XS</span>
@@ -88,13 +89,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="{{ route('bithome') }}">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#pricing">Preise</a>
+                        <a class="nav-link" href="#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#kontakt">Kontakt</a>
+                          <a class="nav-link" href="#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
                           <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
@@ -111,6 +112,19 @@
                         </li>
                       </ul>
                     </div>
+                    <nav class="blured" aria-label="Landesauswahl">
+                      <ul class=" pagination pagination-lg">
+                        <li class="page-item active" aria-current="page">
+                          <span class="page-link">
+                          <a href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a>
+                            <span class="sr-only">(current)</span>
+                          </span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                        <li class="page-item"><a class="page-link" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                        
+                      </ul>
+                    </nav>
                   </nav>
                   
 

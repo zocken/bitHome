@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'message' => 'Wir verwenden Cookies. Wir können diese zur Analyse unserer Besucherdaten platzieren, um unsere Website zu verbessern, personalisierte Inhalte anzuzeigen und Ihnen ein großartiges Website-Erlebnis zu bieten. Für weitere Informationen zu den von uns verwendeten Cookies kontaktieren Sie bitte unseren Service.',
+    'message' => 'Diese Website verwendet eigene Cookies sowie die von Partnern unseres Vertrauens. Damit gestalten wir Ihren Besuch auf der Website komfortabler und persönlicher. Cookies speichern nützliche Informationen auf Ihrem Computer, mit denen wir die Effizienz und Relevanz unserer Website für Sie verbessern können. In einigen Fällen sind sie für die korrekte Funktion der Website unverzichtbar. Mit dem Aufrufen dieser Website weisen Sie uns an und stimmen zu, dass wir die in der Datenschutzrichtlinie aufgeführten Cookies verwenden. Weitere Informationen finden Sie in der Datenschutzrichtlinie.',
     'agree' => 'Cookies akzeptieren',
 ];

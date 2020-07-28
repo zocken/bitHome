@@ -1,35 +1,30 @@
-<div style="margin-top: 75px;">
+
+
+
+<div  style="margin-top: 75px;">
     @if($errors->any())
     @foreach ($errors->all() as $error)
 
-
-    <div id="success" class="modal-dialog modal-dialog-centered">
-        
-    <div class="alert alert-danger" role="alert">
-        
+    <div class="text-center alert alert-warning alert-dismissible fade show" role="alert">
         {{ $error }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 
-    </div>    
 
-    </div>
     @endforeach
 @endif
 
 
     @if (session('sucessMsg'))
 
-
-        <div id="success" class="modal-dialog modal-dialog-centered">
-      
-        <div class="alert alert-success" role="alert">
-            
-        {{ session ('sucessMsg')}}
-        </div>
-
-        </div>
-
-    
-
+        <div class="text-center alert alert-warning alert-dismissible fade show" role="alert">
+            {{ session ('sucessMsg')}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
 
     @endif
 
