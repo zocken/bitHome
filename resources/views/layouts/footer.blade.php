@@ -11,13 +11,13 @@
 
          <ul style="font-size: 20px;" class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
+              <a class="text-dark nav-link" href="{{ route('impressum') }}">{{$menue_impressum}}</a>
             </li>
             <li class="nav-item">
-              <a class="text-dark nav-link" href="{{ route('agb') }}">AGB</a>
+              <a class="text-dark nav-link" href="{{ route('agb') }}">{{$menue_agb}}</a>
             </li>
             <li class="nav-item">
-              <a class="text-dark nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
+              <a class="text-dark nav-link" href="{{ route('dsgvo') }}">{{$menue_datenschutz}}</a>
              </li>
             <li>
             
@@ -50,7 +50,7 @@
 <script>
   function input(pakNrS){
       
-      var text = "Sehr geehrte Damen und Herren, \n ich habe mich fuer das Paket " + pakNrS +" entschieden und moechte Sie bitten \n mit mir in Kontakt zu treten. \n Meine Telefonnummer lautet: \n Mit freundlichen Grueßen";
+      var text = "{{$pricebox_text_form1}}"  + pakNrS + "{{$pricebox_text_form2}}"; 
       document.forms.orderform.textareaNachricht.value = text;
   }  
 

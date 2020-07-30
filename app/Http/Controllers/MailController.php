@@ -40,9 +40,9 @@ class MailController extends Controller
         unlink("./verified/" . $id);
 
         if (Mail::failures()) {
-            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde nicht versandt. Versuchen Sie es bitte nocheinmal. Sollte das Problem weiterhin bestehen wenden Sie sich bitte per E-mail an service@web-seo-it.de oder rufen Sie uns an.');
+            return Redirect(route('bithome' , app()->getLocale() ))->with('sucessMsg', trans('lang.e_mail_controller_1'));
         }else{
-            return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde erfolgreich versandt. Vielen Dank für die Anfrage');
+            return Redirect(route('bithome' , app()->getLocale() ))->with('sucessMsg', trans('lang.e_mail_controller_2'));
         
         }
 
@@ -117,7 +117,8 @@ class MailController extends Controller
             'inputName' => 'required',
             'textareaNachricht' => 'required'
         ],[
-            'required' => 'Bitte geben Sie einen Wert in das :attribute field ein.'
+            
+            'required' => trans('lang.feldpruefung_1')
          ]
         );
 
@@ -146,15 +147,15 @@ class MailController extends Controller
             });
 
             if (Mail::failures()) {
-                return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde nicht versandt. Versuchen Sie es bitte nocheinmal. Sollte das Problem weiterhin bestehen wenden Sie sich bitte per E-mail an service@web-seo-it.de oder rufen Sie uns an.');
+                return Redirect(route('bithome' , app()->getLocale() ))->with('sucessMsg', trans('lang.e_mail_controller_1'));
             }else{
-                return Redirect(route('bithome'))->with('sucessMsg', 'Die Nachricht wurde erfolgreich versandt. Vielen Dank für die Anfrage');
+                return Redirect(route('bithome' , app()->getLocale() ))->with('sucessMsg', trans('lang.e_mail_controller_2'));
             
             }
         }else
         {
-            return Redirect(route('bithome'))->with('sucessMsg', 'Ihre E-Mailadresse wurde noch nicht verifiziert, deshalb haben wir ihnen eine E-Mail mit einem Link zur Verifizierung zugesandt. Bitte klicken Sie auf diesen um die angegebene E-Mail Adresse als die ihrige zu bestätigen.');
+            return Redirect(route('bithome' , app()->getLocale() ))->with('sucessMsg', trans('lang.e_mail_controller_3'));
     
         };
     }
-}
+}  

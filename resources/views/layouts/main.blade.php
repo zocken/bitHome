@@ -67,7 +67,7 @@
     </head>
     <body class="bg" >   
       
-      <div id="size-debugger-bs4" style="display:none; position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
+      <div id="size-debugger-bs4" style=" position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
         <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
         <span class="naderio-vp-bs4 d-block d-sm-none">XS</span>
         <span class="naderio-vp-bs4 d-none d-sm-block d-md-none">SM</span>
@@ -82,6 +82,18 @@
                       <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
                      
                     </a>
+                    
+                    <nav class="d-none d-sm-block d-lg-none  navbar " aria-label="Landesauswahl">
+                      <ul class=" pagination pagination-lg">
+                        
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                        
+                      </ul>
+                    </nav>
+                    
+                    
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -98,35 +110,46 @@
                           <a class="nav-link" href="#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('impressum') }}">Impressum</a>
+                          <a class="text-dark nav-link" href="{{ route('impressum') }}">{{$menue_impressum}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('agb') }}">AGB</a>
+                          <a class="text-dark nav-link" href="{{ route('agb') }}">{{$menue_agb}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('dsgvo') }}">Datenschutz</a>
+                          <a class="text-dark nav-link" href="{{ route('dsgvo') }}">{{$menue_datenschutz}}</a>
                          </li>
-                        
+                        <li class="nav-item d-block d-md-none">
+
+                          <nav class=" navbar" aria-label="Landesauswahl">
+                            <ul class=" pagination pagination-lg">
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                              
+                            </ul>
+                          </nav>
                         
                         
                         </li>
                       </ul>
+                      <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
+                        <ul class=" pagination pagination-lg">
+                          
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                          
+                        </ul>
+                      </nav>
                     </div>
-                    <nav class="blured" aria-label="Landesauswahl">
-                      <ul class=" pagination pagination-lg">
-                        <li class="page-item active" aria-current="page">
-                          <span class="page-link">
-                          <a href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a>
-                            <span class="sr-only">(current)</span>
-                          </span>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                        <li class="page-item"><a class="page-link" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
-                        
-                      </ul>
-                    </nav>
+                    
                   </nav>
                   
+
+
+
+
+
 
 
 
