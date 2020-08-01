@@ -1,7 +1,7 @@
 
 
 
-<div  style="margin-top: 75px;">
+<div  style="margin-top: 100px;">
     @if($errors->any())
     @foreach ($errors->all() as $error)
 

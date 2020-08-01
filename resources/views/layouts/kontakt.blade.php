@@ -14,7 +14,7 @@
                 <p class="bg-white p-1">{{$kontakt_3}}</p>
             </div>
             <div class="col-sm-8">
-                <form id="orderform" action="{{ route ('sendOrderMail') }}" method = "POST">
+                <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale()) }}" method = "POST">
                     {{csrf_field()}}
                     <div class="form-group">
                         <label for="inputName">{{$kontakt_4}}</label>

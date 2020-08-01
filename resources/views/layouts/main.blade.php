@@ -79,16 +79,16 @@
                   <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:50; font-size: 20px;">
                     <a class="navbar-brand" href="#">
                       
-                      <img src="{{asset('/public/img/bit.png')}}" width="100" height="65">
+                      <img src="{{asset('/public/img/bit.png')}}" width="100" height="60">
                      
                     </a>
                     
                     <nav class="d-none d-sm-block d-lg-none  navbar " aria-label="Landesauswahl">
                       <ul class=" pagination pagination-lg">
                         
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
                         
                       </ul>
                     </nav>
@@ -122,9 +122,9 @@
 
                           <nav class=" navbar" aria-label="Landesauswahl">
                             <ul class=" pagination pagination-lg">
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
                               
                             </ul>
                           </nav>

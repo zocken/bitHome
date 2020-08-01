@@ -31,7 +31,7 @@ Route::get('/dsgvo', function () {
 })->name('dsgvo');
 
 
-Route::post('lara-email-send', 'MailController@sendEmail')->name('sendOrderMail');
-Route::get('verify/{id}', 'MailController@sendMailAfterVerification')->name('MailController@sendMailAfterVerification');
+Route::post('lara-email-send/{locale}', 'MailController@sendEmail')->name('sendOrderMail');
+Route::get('verify/{id}/{locale}', 'MailController@sendMailAfterVerification')->name('MailController@sendMailAfterVerification');
 Route::get('/{locale}','LocalizationController@index')->name('bithome');
 
