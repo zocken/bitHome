@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-/* Footer*/
+/* Die nächsten drei Routen sind nicht länger erforderlich*/
 Route::get('/de/impressum', function () {
     return view('layouts.impressum');
 })->name('impressum');

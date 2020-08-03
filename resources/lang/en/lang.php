@@ -1,7 +1,7 @@
 <?php
    return [
       'menue_home' => 'Home',
-      'menue_preis' => 'Price',
+      'menue_preis' => 'Prices',
       'menue_kontakt' => 'Contact',
       'menue_impressum' => 'Imprint',
       'menue_agb' => 'AGB',
