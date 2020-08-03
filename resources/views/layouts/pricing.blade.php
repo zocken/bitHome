@@ -4,20 +4,20 @@
 </div>
 <div class="container mt-5">
 
-    <div class="row" >
+    <div class="" >
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 col-xl-12">
             <div class="blured card-deck mb-3 py-5 text-center">
                 <div class="card mb-4 shadow-sm app-package ">
                     <div class="card-header bg-dark text-white">
                         <h4 class="my-0 font-weight-normal">Page2Rent Starter</h4>
                     </div>
-                    <div class="card-body py-5">
+                    <div class="card-body py-5 ">
                         <div class="" style="padding:15px 0 15px 0;background-color:#f0f0f0;text-align: center;">
 
                             <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">19,90.-</span>
                                 <span class="figure " style="font-size:30px; font-weight:bold">€</span>
                                 <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
-                                <div id="1" class="tooltip">Dies ist unser erster Tooltip</div>
+
                             </div>
            </div>
                         <ul class="list-unstyled mt-3 mb-4">
@@ -28,20 +28,21 @@
                             <li class="list-group-item py-1 px-5">2 {{$pricebox_line3}} <span class="tooltips " style="" title="{{$pricebox_info2}}"><i class="fa fa-info-circle"></i></span></li>
                             <li class="list-group-item py-1 px-5">{{$pricebox_line4}}</li>
                             <li class="list-group-item py-1 px-5">{{$pricebox_line5}}</li>
-                            <li class="list-group-item py-1 px-5">{{$pricebox_line6}}<span title="{{$pricebox_info3}}"><i class="fa fa-info-circle"></i></span></li>
+                            <li class="list-group-item py-1 px-5">{{$pricebox_line6}}</li>
                             <li class="list-group-item py-1 px-5">{{$pricebox_line7}}</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
+                            <li class="list-group-item py-1 px-5 text-white ">{{$pricebox_line9}}</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
                             <li class="list-group-item py-1 px-5 text-white ">1</li>
-                            <li class="list-group-item py-1 px-5 text-white ">1</li>
+
 
                         </ul>
 
 
                       <a onclick=input("Page2Rent\u00A0Starter") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">{{$pricebox_button}}</a>
-                      <div id="1" class="tooltip"><p><a onmouseover="showWMTT('1')" onmouseout="hideWMTT()" href="#">Unser Link</a></p></div>
+
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border ">
                         <p style="text-align: center; ">{{$pricebox_bottom_line1}}<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">39.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">{{$pricebox_bottom_line3}}</span></p>
@@ -116,7 +117,7 @@
                     <li class="list-group-item py-1 px-5">{{$pricebox_line6}}</li>
                     <li class="list-group-item py-1 px-5">{{$pricebox_line7}}</li>
                     <li class="list-group-item py-1 px-5">{{$pricebox_line8}}<span class="" style="" title="{{$pricebox_info3}}"><i class="fa fa-info-circle"></i></span></li>
-                    <li class="list-group-item py-1 px-5">{{$pricebox_line9}}<span class="" style="" title="{{$pricebox_info4}}"><i class="fa fa-info-circle"></i></span></li>
+                    <li class="list-group-item py-1 px-5">{{$pricebox_line9}}</li>
                     <li class="list-group-item py-1 px-5">{{$pricebox_line10}}</li>
                     <li class="list-group-item py-1 px-5">{{$pricebox_line11}}</li>
                     <li class="list-group-item py-1 px-5">{{$pricebox_line12}}<span class="" style="" title="{{$pricebox_info5}}"><i class="fa fa-info-circle"></i></span></li>

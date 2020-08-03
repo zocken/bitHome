@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('/bithome', function () {
+    return view('welcome');
+})->name('bithome');
 
 
 

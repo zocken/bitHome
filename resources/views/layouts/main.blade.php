@@ -19,6 +19,7 @@
         <meta name="description" content="Rent a Webpage, Für jedes Budget geeignet, Modernstes Webdesign. Our mission is to help people to realize their full potential." />
         <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
         <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+        <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -62,13 +63,12 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- own css -->
-        <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
+
 
     </head>
     <body class="bg" >
 
-      <div id="size-debugger-bs4" style="display:none; position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
+      <div id="size-debugger-bs4" style="position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
         <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
         <span class="naderio-vp-bs4 d-block d-sm-none">XS</span>
         <span class="naderio-vp-bs4 d-none d-sm-block d-md-none">SM</span>
