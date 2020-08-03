@@ -48,9 +48,9 @@ class MailController extends Controller
         unlink("./verified/" . $id);
 
         if (Mail::failures()) {
-            return Redirect(route('bithome', app()->getLocale()))->with('sucessMsg', trans('lang.e_mail_controller_1'));
+            return Redirect(route('bithome', app()->getLocale(),'welcome'))->with('sucessMsg', trans('lang.e_mail_controller_1'));
         } else {
-            return Redirect(route('bithome', app()->getLocale()))->with('sucessMsg', trans('lang.e_mail_controller_2'));
+            return Redirect(route('bithome', app()->getLocale(),'welcome'))->with('sucessMsg', trans('lang.e_mail_controller_2'));
         }
     }
 
@@ -144,12 +144,12 @@ class MailController extends Controller
             });
 
             if (Mail::failures()) {
-                return Redirect(route('bithome', app()->getLocale()))->with('sucessMsg', trans('lang.e_mail_controller_1'));
+                return Redirect(route('bithome', app()->getLocale(),'welcome'))->with('sucessMsg', trans('lang.e_mail_controller_1'));
             } else {
-                return Redirect(route('bithome', app()->getLocale()))->with('sucessMsg', trans('lang.e_mail_controller_2'));
+                return Redirect(route('bithome', app()->getLocale(),'welcome'))->with('sucessMsg', trans('lang.e_mail_controller_2'));
             }
         } else {
-            return Redirect(route('bithome', app()->getLocale()))->with('sucessMsg', trans('lang.e_mail_controller_3'));
+            return Redirect(route('bithome', app()->getLocale(),'welcome'))->with('sucessMsg', trans('lang.e_mail_controller_3'));
         };
     }
 }

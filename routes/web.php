@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 /* Footer*/
-Route::get('/impressum', function () {
+Route::get('/de/impressum', function () {
     return view('layouts.impressum');
 })->name('impressum');
 
@@ -33,5 +33,6 @@ Route::get('/dsgvo', function () {
 
 Route::post('lara-email-send/{locale}', 'MailController@sendEmail')->name('sendOrderMail');
 Route::get('verify/{id}/{locale}', 'MailController@sendMailAfterVerification')->name('MailController@sendMailAfterVerification');
-Route::get('/{locale}','LocalizationController@index')->name('bithome');
+Route::get('/{locale}/{viewname}','LocalizationController@index')->name('bithome');
+Route::post('/{locale}/{viewname}','LocalizationController@index')->name('linkroute');
 

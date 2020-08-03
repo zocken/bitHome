@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class LocalizationController extends Controller
 {
 
-    public function index($locale)
+    public function index($locale,$viewname)
     {
         //set’s application’s locale
         app()->setLocale($locale);
@@ -133,6 +133,8 @@ class LocalizationController extends Controller
 
         );
 
-        return view('welcome', $data);
+
+        session(['viewname' => $viewname]);
+        return view($viewname, $data);
     }
 }

@@ -16,14 +16,15 @@
         <meta name="msapplication-wide310x150logo" content="{{asset('/public/img/icons/win8-tile-310x150.png')}}"/>
         <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
-    
+        <meta descrition="Reant a Webpage, Webseite mieten, Welche Vorteile bringt Ihnen das mieten einer Webseite?,Für jedes Budget geeignet,Für jedes Budget geeignet,Immer modernstes Webdesign">
         <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
         <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  
+
 
 
 <link rel="shortcut icon" type="image/x-icon" href="{{asset('/public/img/icons/favicon.ico')}}"/>
@@ -53,20 +54,20 @@
 
 
 
-  
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-        <title>B-IT Rent a Page</title>
+        <title>B-IT Rent a Webpage</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        
+
         <!-- own css -->
         <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
 
     </head>
-    <body class="bg" >   
-      
+    <body class="bg" >
+
       <div id="size-debugger-bs4" style=" position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
         <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
         <span class="naderio-vp-bs4 d-block d-sm-none">XS</span>
@@ -74,77 +75,77 @@
         <span class="naderio-vp-bs4 d-none d-md-block d-lg-none">MD</span>
         <span class="naderio-vp-bs4 d-none d-lg-block d-xl-none">LG</span>
         <span class="naderio-vp-bs4 d-none d-xl-block">XL</span>
-</div>  
-       
+</div>
+
                   <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:50; font-size: 20px;">
                     <a class="navbar-brand" href="#">
-                      
-                      <img src="{{asset('/public/img/bit.png')}}" width="100" height="60">
-                     
+
+                      <img alt="Rent a Webpage logo" src="{{asset('/public/img/bit.png')}}" width="100" height="60">
+
                     </a>
-                    
+
                     <nav class="d-none d-sm-block d-lg-none  navbar " aria-label="Landesauswahl">
                       <ul class=" pagination pagination-lg">
-                        
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
-                        
+
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
+
                       </ul>
                     </nav>
-                    
-                    
+
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                  
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
+                        <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#kontakt">{{$menue_kontakt}}</a>
+                          <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('impressum') }}">{{$menue_impressum}}</a>
+                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('agb') }}">{{$menue_agb}}</a>
+                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                          <a class="text-dark nav-link" href="{{ route('dsgvo') }}">{{$menue_datenschutz}}</a>
+                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
                          </li>
                         <li class="nav-item d-block d-md-none">
 
                           <nav class=" navbar" aria-label="Landesauswahl">
                             <ul class=" pagination pagination-lg">
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
-                              
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
+
                             </ul>
                           </nav>
-                        
-                        
+
+
                         </li>
                       </ul>
                       <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
                         <ul class=" pagination pagination-lg">
-                          
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de')}}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp')}}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en')}}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
-                          
+
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+
                         </ul>
                       </nav>
                     </div>
-                    
+
                   </nav>
-                  
+
 
 
 

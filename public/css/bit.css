@@ -9,31 +9,15 @@ padding: 0;
 
 
 .bg {
-                
+
     background-image: url("../img/bg_smaller.jpg");
-                
+
     height: 100%;
-              
+
     background-position: center;
     background-repeat: repeat;
-    background-size: 55%;
-            
-}
+    background-size: 30%;
 
-.jumbotron {
-    padding: 200px 0px;
-}
-.lead{
-    max-width: 600px;
-}
-.feature{
-    /*padding: 100px 0px; */
-}
-.feature-text{
-    padding: 100px 0px;
-}
-.app-package {
-    min-width: 250px;
 }
 
 
@@ -41,7 +25,7 @@ padding: 0;
     backdrop-filter:blur(3px);
     -webkit-backdrop-filter: blur(3px);
 }
-  
+
 
 .transparent
 {
@@ -49,6 +33,5 @@ padding: 0;
     background:transparent;
 
 }
-
 
 
