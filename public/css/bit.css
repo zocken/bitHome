@@ -34,4 +34,7 @@ padding: 0;
 
 }
 
-
+/* Mindestgröße cards */
+.app-package {
+    min-width: 250px;
+}

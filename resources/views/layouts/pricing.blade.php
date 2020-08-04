@@ -1,11 +1,11 @@
-<!-- Pricing -->
-<div id="pricing" class="bg-transparent blured border">
+<div id="pricing" class="bg-transparent blured border border-primary">
 
 </div>
-<div class="container mt-5">
 
-    <div class="" >
-        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 col-xl-12">
+<div  class="container mt-5">
+
+    <div class="row" >
+        <div class="col-12">
             <div class="blured card-deck mb-3 py-5 text-center">
                 <div class="card mb-4 shadow-sm app-package ">
                     <div class="card-header bg-dark text-white">
@@ -136,6 +136,8 @@
                 </div>
             </div>
         </div>
+
+
 
 
 

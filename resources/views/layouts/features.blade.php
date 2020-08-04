@@ -1,5 +1,5 @@
- 
- 
+
+
  <div class="container" style="margin-top:125px; margin-bottom:50px;">
  <div class="row">
 
@@ -8,12 +8,12 @@
         <h1>{{$features_top_title}}</h1><br/>
         <h2>{{$features_title}}</h2>
 
-    </div>    
+    </div>
 
 
 </div>
 
- </div>   
+ </div>
 
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
@@ -72,9 +72,9 @@
     </div>
 </div>
 
-     
+
     <div style="margin-bottom:0px;" class="d-block d-sm-none"></div>
     <div style="margin-bottom:100px;" class="d-none d-sm-block d-md-none"></div>
     <div style="margin-bottom:420px;" class="d-none d-md-block d-lg-none"></div>
     <div style="margin-bottom:275px;" class="d-none d-lg-block d-xl-none"></div>
-    <div style="margin-bottom:325px;" class="d-none d-xl-block"></div>  
+    <div style="margin-bottom:325px;" class="d-none d-xl-block"></div>
