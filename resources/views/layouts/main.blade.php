@@ -87,9 +87,9 @@
                     <nav class="d-none d-sm-block d-lg-none  navbar " aria-label="Landesauswahl">
                       <ul class=" pagination pagination-lg">
 
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                        <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
 
                       </ul>
                     </nav>
@@ -123,9 +123,9 @@
 
                           <nav class=" navbar" aria-label="Landesauswahl">
                             <ul class=" pagination pagination-lg">
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
+                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
 
                             </ul>
                           </nav>
@@ -136,9 +136,9 @@
                       <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
                         <ul class=" pagination pagination-lg">
 
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                          <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
 
                         </ul>
                       </nav>
