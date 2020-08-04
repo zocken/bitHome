@@ -6,7 +6,7 @@
       'menue_impressum' => 'Imprint',
       'menue_agb' => 'AGB',
       'menue_datenschutz' => 'Privacy',
-      'features_top_title' => 'Rent a Webpage empower your Business!',
+      'features_top_title' => 'Rent a Webpage, empower your Business!',
       'features_title' => 'What are the advantages of renting a website?',
       'features_icon1_title' => 'For every budget range',
       'features_icon2_title' => 'Flexible, customizable adapted to your needs',

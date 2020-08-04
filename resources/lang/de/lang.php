@@ -6,7 +6,7 @@
       'menue_impressum' => 'Impressum',
       'menue_agb' => 'AGB',
       'menue_datenschutz' => 'Datenschutz',
-      'features_top_title' => 'Rent a Webpage empower your Business!',
+      'features_top_title' => 'Rent a Webpage, empower your Business!',
       'features_title' => 'Welche Vorteile bringt Ihnen das mieten einer Webseite?',
       'features_icon1_title' => 'Für jedes Budget geeignet',
       'features_icon2_title' => 'Flexibel, anpassbar an ihre Bedürfnisse angepasst',
