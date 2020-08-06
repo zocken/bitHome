@@ -77,7 +77,11 @@ class LocalizationController extends Controller
         'imp_umsatzsteuer_id' => trans('lang.imp_umsatzsteuer_id'),
         'imp_title1' => trans('lang.imp_title1'),
         'imp_title_sub1' => trans('lang.imp_title_sub1'),
-        'imp_title_body1' => trans('lang.imp_title_body1')
+        'imp_title_body1' => trans('lang.imp_title_body1'),
+        'imp_title3' => trans('lang.imp_title3'),
+        'imp_title_body3' => trans('lang.imp_title_body3'),
+        'imp_title4' => trans('lang.imp_title4'),
+        'imp_title_body4' => trans('lang.imp_title_body4')
 
 
     );

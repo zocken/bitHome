@@ -83,5 +83,26 @@
       the time of knowledge of a specific infringement. At
       If we become aware of such infringements, we will become aware of these contents
       immediately remove.',
+      'imp_title3' =>'Liability for links',
+      'imp_title_body3' =>'Our offer contains links to external websites of third parties on whose
+      content, we have no influence. That is why we can
+      also assume no liability for third-party content. For the content
+      of the linked pages is always the respective provider or operator of the
+      pages responsible. The linked pages were created at the time of linking
+      checked for possible legal violations. Illegal
+      Content was not recognizable at the time of linking. A permanent
+      however, the content control of the linked pages is not necessary without any concrete indications
+      not reasonable for an infringement of the law. If infringements become known,
+      we will remove such links immediately.',
+      'imp_title4' =>'Copyright',
+      'imp_title_body4' =>'The content and works created by the site operators on these pages
+      are subject to German copyright law. The duplication, editing, distribution and
+      any kind of exploitation outside the limits of copyright must be
+      the written consent of the respective author or creator. Downloads
+      and copies of this site are only available for private, non-commercial use of
+      Use permitted. Insofar as the contents on this page have not been created by the operator,
+      the copyrights of third parties are respected. In particular, third-party content as such is
+      Marked. Should you nevertheless become aware of a copyright infringement, please note accordingly.
+      If we become aware of any infringements, we will remove such content immediately.',
 
     ];

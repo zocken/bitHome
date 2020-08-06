@@ -82,5 +82,26 @@
       el momento del conocimiento de una infracción específica. En
       Si nos damos cuenta de tales infracciones, tomaremos conciencia de estos contenidos
       retirar inmediatamente.',
+      'imp_title3' =>'Responsabilidad por enlaces',
+      'imp_title_body3' =>'Nuestra oferta contiene enlaces a sitios web externos de terceros en cuyo
+      contenido, no tenemos influencia. Es por eso que podemos
+      tampoco asumen ninguna responsabilidad por el contenido de terceros. Para el contenido
+      de las páginas enlazadas es siempre el proveedor u operador respectivo de la
+      páginas responsables. Las páginas enlazadas se crearon en el momento de enlazar
+      en busca de posibles violaciones legales. Ilegal
+      El contenido no era reconocible en el momento de la vinculación. Un permanente
+      sin embargo, el control de contenido de las páginas enlazadas no es necesario sin ninguna indicación concreta
+      no es razonable por una infracción de la ley. Si se conocen infracciones,
+      eliminaremos dichos enlaces inmediatamente.',
+      'imp_title4' =>'Copyright',
+      'imp_title_body4' =>'El contenido y las obras creadas por los operadores del sitio en estas páginas
+      están sujetos a la ley alemana de derechos de autor. La duplicación, edición, distribución y
+      cualquier tipo de explotación fuera de los límites del derecho de autor debe ser
+      el consentimiento por escrito del autor o creador respectivo. Descargas
+      y las copias de este sitio sólo están disponibles para uso privado y no comercial de
+      Uso permitido. En la medida en que el contenido de esta página no haya sido creado por el operador,
+      se respetan los derechos de autor de terceros. En particular, el contenido de terceros como tal es
+      Marcado. No obstante, si tiene conocimiento de una infracción de los derechos de autor, tenga en cuenta, en consecuencia.
+      Si tenemos conocimiento de alguna infracción, eliminaremos dicho contenido inmediatamente.',
     ];
 ?>

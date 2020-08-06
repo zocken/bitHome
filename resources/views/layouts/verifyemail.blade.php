@@ -7,17 +7,17 @@
    </head>
    <body>
 
-Sehr geehrte Damen und Herren,
+Sehr geehrte Damen und Herren,<br/>
 
 
-    bitte bestätigen Sie ihre E-Mail Adresse durch Klick auf den folgenden Link: <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Bitte klicken Sie hier um ihre E-Mail Adresse zu verifizieren</a>
+    bitte bestätigen Sie ihre E-Mail Adresse durch Klick auf den folgenden Link:<br/><br/> <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Bitte klicken Sie hier um ihre E-Mail Adresse zu verifizieren</a>
 
+    <br/><br/>
+    Sollte dies nicht funktionieren kopieren Sie bitte den nachfolgenden Link in die Adressleiste ihres Browsers.<br/>
     <br/>
-    Sollte dies nicht funktionieren kopieren Sie bitte den nachfolgenden Link in die Adressleiste ihres Browsers.
-    <br/>
-    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}
+    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}<br/><br/>
 
-Mit freundlichen Grüßen
+    <br/>Mit freundlichen Grüßen<br/><br/>
 
 
 
@@ -27,17 +27,17 @@ Mit freundlichen Grüßen
    </head>
    <body>
 
-Estimado Cliente,
+Estimado Cliente,<br/>
 
 
-Confirme su dirección de correo electrónico haciendo clic en el siguiente enlace: <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Haga clic aquí para verificar su dirección de correo electrónico</a>
+Confirme su dirección de correo electrónico haciendo clic en el siguiente enlace:<br/><br/> <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Haga clic aquí para verificar su dirección de correo electrónico</a>
 
-    <br/>
+    <br/><br/>
     Si esto no funciona, copie el siguiente enlace a la barra de direcciones de su navegador.
-    <br/>
-    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}
+    <br/><br/>
+    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}} <br/><br/>
 
-    Atentamente
+    Atentamente<br/><br/>
 
 
 @elseif( app()->getLocale() == 'en' )
@@ -46,27 +46,27 @@ Confirme su dirección de correo electrónico haciendo clic en el siguiente enla
    </head>
    <body>
 
-Dear Sirs,
+Dear Sirs,<br/>
 
 
-Please confirm your e-mail address by clicking on the following link: <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Please click here to verify your e-mail address</a>
+Please confirm your e-mail address by clicking on the following link:<br/><br/> <a href="https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}">Please click here to verify your e-mail address</a>
 
-    <br/>
+    <br/><br/>
     If this does not work, please copy the following link to the address bar of your browser.
-    <br/>
-    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}
+    <br/><br/>
+    https://web-seo-it.de/bithome/verify/{{$filename}}/{{app()->getLocale()}}<br/><br/>
 
-    Yours sincerely
+    Yours sincerely<br/><br/>
 
 
 @endif
 
-B-IT Service
+B-IT Service<br/><br/>
 
-tel.: ++(49)2235/697494
-fax : ++(49)2235/697495
-Im Spürkergarten 38-40
-50374 Erftstadt
+tel.: ++(49)2235/697494<br/>
+fax : ++(49)2235/697495<br/>
+Im Spürkergarten 38-40<br/>
+50374 Erftstadt<br/>
 
 </body>
 </html>
