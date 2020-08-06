@@ -58,5 +58,29 @@
       'e_mail_controller_1' => 'El mensaje no fue enviado. Por favor, inténtelo de nuevo. Si el problema persiste, póngase en contacto con service@web-seo-it.de o llámenos por teléfono.',
       'e_mail_controller_2' => 'El mensaje se ha enviado correctamente. Gracias por la consulta',
       'e_mail_controller_3' => 'Su dirección de correo electrónico aún no ha sido verificada, por lo que le hemos enviado un correo electrónico con un enlace para su verificación. Por favor, haga clic en el enlace para confirmar su dirección de correo electrónico.',
-   ];
+      'imp_title' => 'Aviso Legal',
+      'imp_title_sub' => 'Información de acuerdo con la Sección 5 TMG:',
+      'imp_kontakt' => 'Contacto:',
+      'imp_umsatzsteuer' => 'IDENTIFICACIÓN de IVA:',
+      'imp_umsatzsteuer_id' => 'Número de Identificación del Impuesto sobre el Valor Agregado de conformidad con el Artículo 27 a de la Ley del Impuesto sobre el Valor Agregado:',
+      'imp_title1' =>'Renuncia:',
+      'imp_title_sub1' =>'Responsabilidad por contenido',
+      'imp_title_body1' =>'El contenido de nuestras páginas ha sido creado con el máximo cuidado.
+      Para la exactitud, integridad y actualidad de los contenidos
+      sin embargo, no podemos asumir ninguna responsabilidad. Como proveedor de servicios, estamos obligados a cumplir con la Sección 7 (1) TMG para
+      contenido propio en estas páginas de acuerdo con las leyes generales.
+      Sin embargo, de conformidad con las Secciones 8 a 10 de la TMG, nosotros como proveedor de servicios no
+      obligación de proporcionar información de terceros transmitida o almacenada a:
+      o investigar circunstancias que pueden dar lugar a una
+      Actividad. Obligaciones de eliminar o bloquear la
+      El uso de la información de acuerdo con las leyes generales sigue siendo
+      Intactas. Sin embargo, la responsabilidad a este respecto sólo es necesaria a partir de la fecha de
+      el momento del conocimiento de una infracción específica. En
+      Si nos damos cuenta de tales infracciones, tomaremos conciencia de estos contenidos
+      retirar inmediatamente.      El uso de la información de acuerdo con las leyes generales sigue siendo
+      Intactas. Sin embargo, la responsabilidad a este respecto sólo es necesaria a partir de la fecha de
+      el momento del conocimiento de una infracción específica. En
+      Si nos damos cuenta de tales infracciones, tomaremos conciencia de estos contenidos
+      retirar inmediatamente.',
+    ];
 ?>

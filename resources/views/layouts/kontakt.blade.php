@@ -18,16 +18,16 @@
                     {{csrf_field()}}
                     <div class="form-group">
                         <label for="inputName">{{$kontakt_4}}</label>
-                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="{{$kontakt_5}}">
+                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="{{$kontakt_5}}" value="{{Session::get('name') ?? ''}}">
                     </div>
                     <div class="form-group">
                         <label for="inputMail">{{$kontakt_6}}</label>
-                        <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="{{$kontakt_7}}" aria-describedby="emailHilfe">
+                        <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="{{$kontakt_7}}" value="{{Session::get('sender') ?? ''}}" aria-describedby="emailHilfe">
 
                     </div>
                     <div class="form-group">
                         <label for="textareaNachricht">{{$kontakt_8}}</label>
-                        <textarea class="form-control" id="textareaNachricht" rows="5" name="textareaNachricht"></textarea>
+                        <textarea class="form-control" id="textareaNachricht" rows="5" name="textareaNachricht" >{{Session::get('msgtext') ?? ''}}</textarea>
                     </div>
 
                     <div class="row">

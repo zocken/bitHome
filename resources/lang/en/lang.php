@@ -59,4 +59,29 @@
       'e_mail_controller_1' => 'The message was not sent. Please try again. If the problem persists, please contact service@web-seo-it.de or call us by e-mail.',
       'e_mail_controller_2' => 'The message was successfully sent. Thank you for the inquiry',
       'e_mail_controller_3' => 'Your e-mail address has not yet been verified, so we have sent you an email with a link for verification. Please click on this to confirm the given e-mail address as yours.',
-   ];
+      'imp_title' => 'Imprint',
+      'imp_title_sub' => 'Information in accordance with Section 5 TMG:',
+      'imp_kontakt' => 'Contact:',
+      'imp_umsatzsteuer' => 'VAT ID:',
+      'imp_umsatzsteuer_id' => 'Value Added Tax Identification Number pursuant to Section 27 a of the Value Added Tax Act:',
+      'imp_title1' =>'Disclaimer:',
+      'imp_title_sub1' =>'Liability for content',
+      'imp_title_body1' =>'The contents of our pages have been created with the utmost care.
+      For the correctness, completeness and topicality of the contents
+      however, we cannot assume any liability. As a service provider, we are required to comply with Section 7 (1) TMG for
+      own content on these pages in accordance with the general laws.
+      However, pursuant to Sections 8 to 10 of the TMG, we as a service provider are not
+      obligation to provide transmitted or stored third-party information to
+      or to investigate circumstances that may lead to an unlawful
+      activity. Obligations to remove or block the
+      Use of information in accordance with the general laws remains
+      Untouched. However, liability in this respect is only necessary from the date of
+      the time of knowledge of a specific infringement. At
+      If we become aware of such infringements, we will become aware of these contents
+      immediately remove. Use of information in accordance with the general laws remains
+      Untouched. However, liability in this respect is only necessary from the date of
+      the time of knowledge of a specific infringement. At
+      If we become aware of such infringements, we will become aware of these contents
+      immediately remove.',
+
+    ];

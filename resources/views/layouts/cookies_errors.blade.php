@@ -1,7 +1,7 @@
 
 
 
-<div  style="margin-top: 100px;">
+<div  style="margin-top: 125px;">
     @if($errors->any())
     @foreach ($errors->all() as $error)
 
@@ -28,5 +28,5 @@
 
     @endif
 
-    @include('cookieConsent::index') 
-</div>    
+    @include('cookieConsent::index')
+</div>

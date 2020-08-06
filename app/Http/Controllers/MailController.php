@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Redirect, Response, DB, Config;
 use Mail;
+use Session;
 
 class MailController extends Controller
 {
@@ -36,7 +37,10 @@ class MailController extends Controller
         $sender = $data[0][0];
         $name = $data[0][1];
 
+
         $data_to_send = array('name' => $name, 'body' => $body, 'sender' => $sender);
+
+
 
         $to_name = 'service';
         $to_email = 'service@web-seo-it.de';
@@ -86,6 +90,9 @@ class MailController extends Controller
             try {
                 $fp = fopen("./verified/" . $changedFilename, 'a');
             } catch (\Exception $e) {
+
+
+                $this->setSessionVars($request);
                 abort(404);
             }
 
@@ -123,6 +130,8 @@ class MailController extends Controller
         ]);
 
 
+        $this->setSessionVars($request);
+
         if ($verified = $this->veryfyMailAdress($request)) {
 
             $Mail = new Mail;
@@ -134,6 +143,7 @@ class MailController extends Controller
             $to_name = 'service';
             $to_email = 'service@web-seo-it.de';
             $data = array('name' => $name, 'body' => $body, 'sender' => $sender);
+
 
             if (config('myGlobal.myLogging') == 'on') {
                 info("Inhalt:" . $body . $name . $sender);
@@ -149,9 +159,23 @@ class MailController extends Controller
             } else {
                 return Redirect(route('linkroute',['locale'=>app()->getLocale(), 'welcome']))->with('sucessMsg', trans('lang.e_mail_controller_2'));
             }
-        } else {
+        } else
+        {
+
 
             return Redirect(route('linkroute',['locale'=>app()->getLocale(), 'welcome']))->with('sucessMsg', trans('lang.e_mail_controller_3'));
         };
     }
+
+    public function setSessionVars(Request $request)
+    {
+        session(['name' => $request->input('inputName')]);
+        session(['sender' => $request->input('inputMail')]);
+        session(['msgtext' => $request->input('textareaNachricht')]);
+        return true;
+
+
+    }
+
+
 }
