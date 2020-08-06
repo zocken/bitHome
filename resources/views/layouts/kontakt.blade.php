@@ -30,6 +30,7 @@
                         <textarea class="form-control" id="textareaNachricht" rows="5" name="textareaNachricht" >{{Session::get('msgtext') ?? ''}}</textarea>
                     </div>
 
+
                     <div class="row">
                         <div class="col-1 pr-4">
                             <button class="btn btn-dark" type="submit">{{$kontakt_9}}</button>
