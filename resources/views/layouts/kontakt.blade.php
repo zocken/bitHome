@@ -16,6 +16,7 @@
             <div class="col-sm-8">
                 <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale(), Session::get('viewname')) ?? 'welcome' }}" method = "POST">
                     {{csrf_field()}}
+
                     <div class="form-group">
                         <label for="inputName">{{$kontakt_4}}</label>
                         <input type="text" class="form-control" id="inputName" name="inputName" placeholder="{{$kontakt_5}}" value="{{Session::get('name') ?? ''}}">

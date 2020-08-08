@@ -109,24 +109,24 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
+                      <ul  class="navbar-nav mr-auto">
+                        <li  class="nav-item active">
+                          <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
+                        <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
+                          <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
+                            <a style="font-size: 20px;" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
+                            <a style="font-size: 20px;" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
+                            <a style="font-size: 20px;" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
                          </li>
                         <li class="nav-item d-block d-md-none">
 
