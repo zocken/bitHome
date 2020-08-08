@@ -9,8 +9,6 @@ padding: 0;
 
 .header_img {
 
-
-
     background: url("../img/head_bg.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
@@ -24,8 +22,6 @@ padding: 0;
 
 .header_img3 {
 
-
-
     background: url("../img/head_bg2.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
@@ -38,8 +34,6 @@ padding: 0;
 }
 
 .header_img2 {
-
-
 
     background: url("../img/head_bg3.jpg")no-repeat;
     /* fixed center center*/
