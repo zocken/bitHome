@@ -119,6 +119,7 @@ class MailController extends Controller
     {
 
         app()->setLocale($locale);
+        $this->setSessionVars($request);
 
         $this->validate($request, [
             'inputMail' => 'required|email',
@@ -130,7 +131,7 @@ class MailController extends Controller
         ]);
 
 
-        $this->setSessionVars($request);
+
 
         if ($verified = $this->veryfyMailAdress($request)) {
 
@@ -169,6 +170,7 @@ class MailController extends Controller
 
     public function setSessionVars(Request $request)
     {
+        info("Inhalt:" . $request->input('textareaNachricht') . $request->input('inputName') . $request->input('inputMail'));
         session(['name' => $request->input('inputName')]);
         session(['sender' => $request->input('inputMail')]);
         session(['msgtext' => $request->input('textareaNachricht')]);
