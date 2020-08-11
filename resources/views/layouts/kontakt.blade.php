@@ -8,11 +8,20 @@
         <div style="margin-bottom:275px;" class="d-none d-xl-block"></div>
 
         <div  class="blured row seitenAbschnitt py-5">
+
             <div class="col-sm-4 ">
+
             <h3 class="bg-white p-1">{{$kontakt_1}}</h3>
                 <p class="bg-white p-1">{{$kontakt_2}}</p>
                 <p class="bg-white p-1">{{$kontakt_3}}</p>
+
+                <div class="col-sm-12" style="margin-top:75px;">
+                    <p class="text-center"><img  src="{{asset('/public/img/contact-image.png')}}" alt="Rent a Site Kontakt"/></p>
+                </div>
+
             </div>
+
+
             <div class="col-sm-8">
                 <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale(), Session::get('viewname')) ?? 'welcome' }}" method = "POST">
                     {{csrf_field()}}
@@ -46,3 +55,4 @@
         </div>
     </div>
 </div>
+

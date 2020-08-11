@@ -1,19 +1,8 @@
 
 
  <div class="container" style="margin-top:125px; margin-bottom:50px;">
- <div class="row">
-
-    <div class="blured mx-auto text-center col-sm-12">
-
-        <h1>{{$features_top_title}}</h1><br/>
-        <h2>{{$features_title}}</h2>
-
-    </div>
-
-
+ <div class="row"></div>
 </div>
-
- </div>
 
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
@@ -43,6 +32,16 @@
         </div>
     </div>
 </div>
+
+
+<div class="blured mx-auto mb-5 text-center col-sm-12">
+
+    <h1 class="headline1">{{$features_top_title}}</h1><br/>
+    <h2 class="headline2">{{$features_title}}</h2>
+
+</div>
+
+
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">

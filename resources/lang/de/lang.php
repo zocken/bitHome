@@ -45,7 +45,7 @@
       'pricebox_text_form1' => 'Sehr geehrte Damen und Herren, \n ich habe mich fuer das Paket ',
       'pricebox_text_form2' => ' entschieden und moechte Sie bitten \n mit mir in Kontakt zu treten. \n Meine Telefonnummer lautet: \n Mit freundlichen Grueßen',
       'kontakt_1' => 'Kontaktanfrage',
-      'kontakt_2' => 'Über dieses Formular kannst du deinen Bestellwunsch an uns übermitteln.',
+      'kontakt_2' => 'Über dieses Formular können Sie ihren Bestellwunsch an uns übermitteln.',
       'kontakt_3' => 'Wir treten innerhalb der nächsten 24 Stunden mit ihnen in Kontakt.',
       'kontakt_4' => 'Name',
       'kontakt_5' => 'Bitte geben Sie ihren Namen ein',

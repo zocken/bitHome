@@ -1,5 +1,5 @@
-<div id="pricing" class="bg-transparent blured border border-primary">
-
+<div id="pricing">
+    <div class="row"></div>
 </div>
 
 

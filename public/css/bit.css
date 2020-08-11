@@ -54,7 +54,7 @@ padding: 0;
 
     background-position: center;
     background-repeat: repeat;
-    background-size: contain;
+    background-size: 50%;
 
 }
 
@@ -109,3 +109,20 @@ a:active {
     color: #000;
     font-size: 16px;
 }
+
+.headline1{
+
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+
+
+}
+
+.headline2{
+
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+
+
+}
+
