@@ -11052,7 +11052,7 @@ a:active {
 }
 
 .bg {
-  background-image: url("/images/bg_smaller.jpg");
+  background-image: url("http://127.0.0.1/bithome/public/css/images/bg_smaller.jpg");
   height: 100%;
   background-position: center;
   background-repeat: repeat;
@@ -11060,21 +11060,21 @@ a:active {
 }
 
 .header_img {
-  background: url("/images/head_bg.jpg") no-repeat;
+  background: url("http://127.0.0.1/bithome/public/css/images/head_bg.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
 }
 
 .header_img3 {
-  background: url("/images/head_bg2.jpg") no-repeat;
+  background: url("http://127.0.0.1/bithome/public/css/images/head_bg2.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
 }
 
 .header_img2 {
-  background: url("/images/head_bg3.jpg") no-repeat;
+  background: url("http://127.0.0.1/bithome/public/css/images/head_bg3.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
