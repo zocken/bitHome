@@ -11052,7 +11052,7 @@ a:active {
 }
 
 .bg {
-  background-image: url("http://web-seo-it.de/bithome/public/css/images/bg_smaller.jpg");
+  background-image: url("https://web-seo-it.de/bithome/public/css/images/bg_smaller.jpg");
   height: 100%;
   background-position: center;
   background-repeat: repeat;
@@ -11060,14 +11060,14 @@ a:active {
 }
 
 .header_img {
-  background: url("http://web-seo-it.de/bithome/public/css/images/head_bg.jpg") no-repeat;
+  background: url("https://web-seo-it.de/bithome/public/css/images/head_bg.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
 }
 
 .header_img3 {
-  background: url("http://web-seo-it.de/bithome/public/css/images/head_bg2.jpg") no-repeat;
+  background: url("https://web-seo-it.de/bithome/public/css/images/head_bg2.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
