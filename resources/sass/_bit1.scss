@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.transparent
+{
+
+    background:transparent;
+
+
+}
+
+.headline1{
+
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+
+
+}
+
+.headline2{
+
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+
+
+}
+
+.blured{
+    backdrop-filter:blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+
+/* Mindestgröße cards */
+.app-package {
+    min-width: 250px;
+}
+
+
+.white{
+
+color: #000;
+
+font-size: 16px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 16px;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
+.bg {
+
+    background-image: url("/images/bg_smaller.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 50%;
+
+}
+
+.header_img {
+
+    background: url("/images/head_bg.jpg")no-repeat;
+    /* fixed center center*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    /* contain auto 100% cover*/
+
+}
+
+.header_img3 {
+
+    background: url("/images/head_bg2.jpg")no-repeat;
+    /* fixed center center*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    /* contain auto 100% cover*/
+
+}
+
+.header_img2 {
+
+    background: url("/images/head_bg3.jpg")no-repeat;
+    /* fixed center center*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    /* contain auto 100% cover*/
+
+}
+
+
+

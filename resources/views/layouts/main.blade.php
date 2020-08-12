@@ -33,9 +33,8 @@
         <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
         <meta name="description" content="Rent a Webpage, Rent a Website, Modernstes Webdesign. Our mission is to help people to realize their full potential." />
-        <link rel="stylesheet" href="{{asset('public/css/bootstrap.css')}}">
-        <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
-        <link href="{{asset('/public/css/bit.css')}}" rel="stylesheet">
+
+        <link href="{{asset('/public/css/app.css') }}" rel="stylesheet">
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -76,13 +75,7 @@
 
         <title>B-IT Rent a Webpage, Rent a Website</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-
-
-
-    </head>
+</head>
     <body class="bg" >
         <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K843TR2"
@@ -126,7 +119,7 @@
                           <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
+                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
                         </li>
                         <li class="nav-item">
                           <a style="font-size: 20px;" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
