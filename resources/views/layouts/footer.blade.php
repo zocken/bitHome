@@ -12,15 +12,15 @@
          <ul style="font-size: 20px;" class="navbar-nav mr-auto">
             <li class="nav-item">
 
-              <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
+              <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
 
 
             </li>
             <li class="nav-item">
-             <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
+             <a style="font-size: 20px; color:black" class=" nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
             </li>
             <li class="nav-item">
-              <a class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
+              <a style="font-size: 20px; color:black" class=" nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
              </li>
             <li>
 
