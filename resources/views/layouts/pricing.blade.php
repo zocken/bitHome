@@ -42,7 +42,7 @@
                         </ul>
 
 
-                      <a onclick=input("Page2Rent\u00A0Starter") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">{{$pricebox_button}}</a>
+                      <a onclick=input("Page2Rent\u00A0Starter") href="#orderform" class="btn btn-lg btn-block btn-outline-primary btndur">{{$pricebox_button}}</a>
 
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border ">
@@ -86,7 +86,7 @@
 
                         </ul>
 
-                        <a onclick=input("Page2Rent\u00A0Medium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">{{$pricebox_button}}</a>
+                        <a onclick=input("Page2Rent\u00A0Medium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary btndur">{{$pricebox_button}}</a>
                     </div>
                     <div style="background-color:#f0f0f0;" class=" border ">
                         <p style="text-align: center; ">{{$pricebox_bottom_line1}}<br/><span style="font-size: 17px; padding: 0px; margin: 0px;">69.-<span style="font-size: 13px;padding: 0px; margin: 0px;">€<br/><span style="font-size: 13px; padding: 0px; margin: 0px;">{{$pricebox_bottom_line3}}</span></p>
@@ -126,7 +126,7 @@
                         </ul>
 
 
-                            <a onclick=input("Page2Rent\u00A0Premium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary">{{$pricebox_button}}</a>
+                            <a onclick=input("Page2Rent\u00A0Premium") href="#orderform" class="btn btn-lg btn-block btn-outline-primary btndur">{{$pricebox_button}}</a>
 
 
 

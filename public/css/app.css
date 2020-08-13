@@ -11059,6 +11059,12 @@ a:active {
   background-size: 50%;
 }
 
+@media screen and (max-width: 767px) {
+  .bg {
+    background-size: 45%;
+  }
+}
+
 .header_img {
   background: url("https://web-seo-it.de/bithome/public/css/images/head_bg.jpg") no-repeat;
   /* fixed center center*/
@@ -11074,9 +11080,20 @@ a:active {
 }
 
 .header_img2 {
-  background: url("http://web-seo-it.de/bithome/public/css/images/head_bg3.jpg") no-repeat;
+  background: url("https://web-seo-it.de/bithome/public/css/images/head_bg3.jpg") no-repeat;
   /* fixed center center*/
   background-size: contain;
   /* contain auto 100% cover*/
+}
+
+.btndur {
+  background: white;
+  transition: width, 1s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btndur {
+    transition: none;
+  }
 }
 

@@ -125,13 +125,13 @@
                           <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a style="font-size: 20px; color:black" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
+                            <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a style="font-size: 20px; color:black" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
+                            <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.agb'])}}">{{$menue_agb}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
-                            <a style="font-size: 20px; color:black" class="text-dark nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
+                            <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.datenschutz'])}}">{{$menue_datenschutz}}</a>
                          </li>
                         <li class="nav-item d-block d-md-none">
 

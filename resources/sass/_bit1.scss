@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+$min_width_cards: 250px;
+$headline1_font-size: 60px;
+$headline2_font-size: 45px;
+$blurfaktor:3px;
+$learn_more_link_font_size: 16px;
+$link_font_size: 20px;
+
+// to try: lighten( $color , step)
+
 .transparent
 {
 
@@ -11,7 +20,7 @@
 .headline1{
 
     font-family: 'Architects Daughter', cursive;
-    font-size: 60px;
+    font-size: $headline1_font-size;
 
 
 }
@@ -19,20 +28,20 @@
 .headline2{
 
     font-family: 'Architects Daughter', cursive;
-    font-size: 45px;
+    font-size: $headline2_font-size;
 
 
 }
 
 .blured{
-    backdrop-filter:blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter:blur($blurfaktor);
+    -webkit-backdrop-filter: blur($blurfaktor);
 }
 
 
 /* Mindestgröße cards */
 .app-package {
-    min-width: 250px;
+    min-width: $min_width_cards;
 }
 
 
@@ -40,40 +49,55 @@
 
 color: #000;
 
-font-size: 16px;
+font-size: $learn_more_link_font_size;
 
 }
 
+
+// Nesting & verknüpft Reihenfolge der Elemente wichtig @extend
 a{
 
     color:black;
-    font-size:20px;
+    font-size:$link_font_size;
+
+    &.links_oben{
+
+        // aktuell nur als Beispiel für Nesting
+    }
+
+
+    &.links_unten{
+
+    }
+
+    &:link{
+        text-decoration: none;
+        color: #000;
+        font-size: $learn_more_link_font_size;
+    }
+
+    &:visited {
+        text-decoration: none;
+        color: #000;
+        font-size: $learn_more_link_font_size;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: #fff;
+        font-size: $learn_more_link_font_size;
+    }
+
+    &:active {
+        text-decoration: none;
+        color: #000;
+        font-size: $learn_more_link_font_size;
+    }
+
 
 }
 
-a:link {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-}
 
-a:visited {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #fff;
-    font-size: 16px;
-}
-
-a:active {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-}
 
 
 .bg {
@@ -85,6 +109,10 @@ a:active {
     background-position: center;
     background-repeat: repeat;
     background-size: 50%;
+
+    @media screen and (max-width: 767px){
+        background-size: 45%;
+    }
 
 }
 
@@ -116,7 +144,7 @@ a:active {
 
 .header_img2 {
 
-    background: url("http://web-seo-it.de/bithome/public/css/images/head_bg3.jpg")no-repeat;
+    background: url("https://web-seo-it.de/bithome/public/css/images/head_bg3.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -126,6 +154,13 @@ a:active {
     /* contain auto 100% cover*/
 
 }
+
+
+.btndur{
+    background: white;
+    @include transition(width,1s);
+}
+
 
 
 
