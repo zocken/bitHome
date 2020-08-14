@@ -11108,5 +11108,6 @@ a:active {
   border: solid;
   background-color: transparent;
   transform: rotate(10deg);
+  border-radius: 50px;
 }
 
