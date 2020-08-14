@@ -59,6 +59,7 @@ a{
 
     color:black;
     font-size:$link_font_size;
+    @include transition(font-size,3s);
 
     &.links_oben{
 
@@ -83,6 +84,7 @@ a{
     }
 
     &:hover {
+
         text-decoration: underline;
         color: #fff;
         font-size: $learn_more_link_font_size;

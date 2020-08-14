@@ -15,7 +15,7 @@
                     <div class="card-body py-5 ">
                         <div class="" style="padding:15px 0 15px 0;text-align: center;">
 
-                            <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">19,90.-</span>
+                            <div style="transform: rotate(10deg);" class="rot"><span><span class="figure" style="font-size:30px; font-weight:bold">19,90.-</span>
                                 <span class="figure " style="font-size:30px; font-weight:bold">€</span>
                                 <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
 
@@ -60,7 +60,7 @@
 
                     <div class="" style="padding:15px 0 15px 0;text-align: center;">
 
-                                     <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">35,90.-</span>
+                                     <div style="transform: rotate(10deg);" class=""><span><span class="figure" style="font-size:30px; font-weight:bold">35,90.-</span>
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span>
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
 
@@ -101,7 +101,7 @@
                     <div class="card-body py-5">
                         <div class="" style="padding:15px 0 15px 0;text-align: center;">
 
-                                     <div class=""><span><span class="figure" style="font-size:30px; font-weight:bold">59,90.-</span>
+                                     <div style="transform: rotate(10deg);" class=""><span><span class="figure" style="font-size:30px; font-weight:bold">59,90.-</span>
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span>
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
 

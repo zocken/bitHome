@@ -92,13 +92,13 @@
 </div>
 
                   <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:50; font-size: 20px;">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#top">
 
                       <img alt="Rent a Webpage logo" src="{{asset('/public/img/bit.png')}}" width="100" height="60">
 
                     </a>
 
-                    <nav class="d-block d-sm-none navbar "aria-label="Landesauswahl">
+                    <nav class="d-sm-block d-md-none navbar"aria-label="Landesauswahl">
                       <ul class="ml-n3 pagination pagination-lg">
 
                         <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="35" height="30"></a></li>
@@ -107,14 +107,7 @@
 
                       </ul>
                     </nav>
-                    <nav class="d-none d-sm-block d-lg-none navbar "aria-label="Landesauswahl">
-                        <ul class=" pagination pagination-lg">
-                            <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                            <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                            <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
 
-                          </ul>
-                      </nav>
 
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -143,19 +136,12 @@
                          </li>
                         <li class="nav-item d-block d-md-none">
 
-                       <!--   <nav class=" navbar" aria-label="Landesauswahl">
-                            <ul class=" pagination pagination-lg">
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="20"></a></li>
-                              <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="20"></a></li>
 
-                            </ul>
-                          </nav> -->
 
 
                         </li>
                       </ul>
-                      <nav class="d-none d-xl-block navbar " aria-label="Landesauswahl">
+                      <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
                         <ul class=" pagination pagination-lg">
 
                           <li class="page-item"><a class="page-link bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
