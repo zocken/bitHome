@@ -11109,5 +11109,7 @@ a:active {
   background-color: transparent;
   transform: rotate(10deg);
   border-radius: 50px;
+  max-width: 250px;
+  padding: 15px;
 }
 

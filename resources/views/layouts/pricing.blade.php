@@ -13,7 +13,7 @@
                         <h4 class="my-0 font-weight-normal">Page2Rent Starter</h4>
                     </div>
                     <div class="card-body py-5 ">
-                        <div class="" style="padding:15px 0 15px 0;text-align: center;">
+                        <div class="d-flex align-items-center justify-content-center" style="padding:15px 0 15px 0;text-align: center;">
 
                             <div class="pricetag"><span><span class="figure" style="font-size:30px; font-weight:bold">19,90.-</span>
                                 <span class="figure " style="font-size:30px; font-weight:bold">€</span>
@@ -58,7 +58,7 @@
                     <div class="card-body py-5">
 
 
-                    <div class="" style="padding:15px 0 15px 0;text-align: center;">
+                    <div class="d-flex align-items-center justify-content-center" style="padding:15px 0 15px 0;text-align: center;">
 
                                      <div class="pricetag"><span><span class="figure" style="font-size:30px; font-weight:bold">35,90.-</span>
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span>
@@ -99,9 +99,9 @@
                         <h4 class="my-0 font-weight-normal">Page2Rent Premium</h4>
                     </div>
                     <div class="card-body py-5">
-                        <div class="" style="padding:15px 0 15px 0;text-align: center;">
+                        <div class="d-flex align-items-center justify-content-center" style="padding:15px 0 15px 0;text-align: center;">
 
-                                     <div class="pricetag"><span><span class="figure" style="font-size:30px; font-weight:bold">59,90.-</span>
+                                     <div class="pricetag "><span><span class="figure" style="font-size:30px; font-weight:bold">59,90.-</span>
                                          <span class="figure " style="font-size:30px; font-weight:bold">€</span>
                                          <span class="" style="font-size:30px; font-weight:bold">&nbsp;mtl.</span></span>
 
