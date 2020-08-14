@@ -36,7 +36,7 @@
 
           <div >
             <span style="font-size: 20px;" >&#169; 2020 Brüggen-IT</span><br/>
-            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / Tel ++(49)2235697494</span><br/>
+            <span style="font-size: 20px;" >E-Mail: service@web-seo-it.de / <br class="d-block d-sm-none">  Tel. ++(49)2235697494</span><br/>
 
 
 
