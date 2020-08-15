@@ -32,7 +32,7 @@
         <meta name="msapplication-wide310x150logo" content="{{asset('/public/img/icons/win8-tile-310x150.png')}}"/>
         <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
-        <meta name="description" content="{{__('lang.page_title')}} Our mission is to help people to realize their full potential." />
+        <meta name="description" content="{{__('lang.page_title_meta_tag')}} Our mission is to help people to realize their full potential." />
 
         <link href="{{asset('/public/css/app.css') }}" rel="stylesheet">
 
@@ -73,7 +73,7 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-        <title>{{__('lang.page_title')}},B-IT Rent a Webpage, Rent a Website</title>
+        <title>{{__('lang.page_title_meta_tag')}}</title>
 
 </head>
     <body class="bg" >

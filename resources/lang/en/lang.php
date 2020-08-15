@@ -1,6 +1,6 @@
 <?php
    return [
-      'page_title' => 'B-IT, Rent a Webpage, Rent a Website',
+      'page_title_meta_tag' => 'B-IT, Rent a Webpage, Rent a Website',
       'menue_home' => 'Home',
       'menue_preis' => 'Prices',
       'menue_kontakt' => 'Contact',
@@ -16,8 +16,8 @@
       'features_icon5_title' => 'Transparently informed, Marketing inclusiv',
       'features_icon6_title' => 'Always up to date',
       'features_icon1_text' => 'Through the concept of website rental, you pay only a small monthly fixed price. So even smaller companies can afford a high-quality website.',
-      'features_icon2_text' => 'Our goal is to create high-quality websites that everyone can afford. Thats why we have introduced a rental model. With this, you save yourself the one-time expensive acquisition costs. Also, your web presence always remains on the newest technical conditions. Concentrate on your daily business, and we take over the maintenance and care of your website.',
-      'features_icon3_text' => 'Our goal is to create high-quality websites to achieve this, we use the most modern development software and techniques.',
+      'features_icon2_text' => 'Our goal is to create high-quality websites that everyone can afford. Thats why we have introduced a rental model. With this, you save yourself the one-time expensive acquisition costs. Also, your web presence always remains on the newest technical conditions. Concentrate on your daily business, and we take over the maintenance and care of your website. Rent a Webpage, Rent a Website.',
+      'features_icon3_text' => 'Our goal is to create high-quality websites to achieve this, we use the most modern development software and techniques. This is not only about visually beautiful pages, but much more about pages that are also found and represent added value for our customers.',
       'features_icon4_text' => 'We make small changes for you, larger ones depending on the plan you have chosen.',
       'features_icon5_text' => 'Once a month you will receive a report from us. There you can see all important data, like the number of visitors or current rankings.
       Depending on the plan you choose, we run active SEO for you. Always up to date.',

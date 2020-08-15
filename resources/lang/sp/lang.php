@@ -1,6 +1,6 @@
 <?php
    return [
-      'page_title' => 'B-IT, Alquilar una página web',
+      'page_title_meta_tag' => 'B-IT, Alquilar una página web',
       'menue_home' => 'Inicio',
       'menue_preis' => 'Precios',
       'menue_kontakt' => 'Contacto',
@@ -17,7 +17,7 @@
       'features_icon6_title' => 'Siempre al día',
       'features_icon1_text' => 'A través del concepto de alquiler de página web, paga usted sólo un pequeño precio fijo mensual. De esta manera, incluso las empresas más pequeñas pueden permitirse una página web de alta calidad.',
       'features_icon2_text' => 'Con nosotros, solo paga por las opciones que necesita para su nueva página web. Es por eso que introdujimos un modelo de alquiler. Esto le ahorra altos costes de adquisición. Su página web está siempre al día con la última tecnología. Concéntrese en su negocio diario y nosotros nos encargaremos de su página web.',
-      'features_icon3_text' => 'Nuestro objetivo es crear páginas web de alta calidad que todo el mundo pueda permitirse. Para lograrlo, utilizamos software y técnicas de desarrollo de última generación.',
+      'features_icon3_text' => 'Nuestro objetivo es crear páginas web de alta calidad que todo el mundo pueda permitirse. Para lograrlo, utilizamos software y técnicas de desarrollo de última generación. No se trata sólo de páginas visualmente hermosas, sino mucho más sobre páginas que también se encuentran y representan un valor añadido para nuestros clientes. Alquilar una página web.',
       'features_icon4_text' => 'Hacemos pequeños cambios para usted. Cambios más grandes, según el plan elegido.',
       'features_icon5_text' => 'Una vez al mes recibirá un informe de nuestra parte. Allí se pueden ver todos los datos importantes, como el número de visitantes o el ranking actual. Dependiendo del plan elegido, operamos SEO activo para usted. Siempre al día.',
       'features_icon6_text' => 'El mantenimiento ya está incluido. Gracias a las actualizaciones y copias de seguridad periódicas, su página web siempre está actualizada y segura.',
