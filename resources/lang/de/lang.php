@@ -1,5 +1,6 @@
 <?php
    return [
+      'page_title' => 'B-IT, Miete eine Webseite, Miete eine Homepage',
       'menue_home' => 'Start',
       'menue_preis' => 'Preise',
       'menue_kontakt' => 'Kontakt',

@@ -1,5 +1,6 @@
 <?php
    return [
+      'page_title' => 'B-IT, Alquilar una página web',
       'menue_home' => 'Inicio',
       'menue_preis' => 'Precios',
       'menue_kontakt' => 'Contacto',

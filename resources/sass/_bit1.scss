@@ -8,6 +8,8 @@ $learn_more_link_font_size: 16px;
 $link_font_size: 20px;
 
 // to try: lighten( $color , step)
+@debug "aktueller wert von Blurfaktor: #{$blurfaktor}";
+
 
 .transparent
 {
@@ -171,7 +173,6 @@ a{
     border-radius:50px;
     max-width: 250px;
     padding: 15px;
-
 
 }
 
