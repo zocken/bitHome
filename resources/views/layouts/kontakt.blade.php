@@ -16,7 +16,7 @@
                 <p class="bg-white p-1">{{$kontakt_3}}</p>
 
                 <div class="col-sm-12" style="margin-top:75px;">
-                    <p class="text-center"><img  src="{{asset('/public/img/contact-image.png')}}" alt="Rent a Site Kontakt"/></p>
+                    <p class="text-center"><img  src="{{asset('/public/img/contact-image_black_white.png')}}" alt="Rent a Site Kontakt"/></p>
                 </div>
 
             </div>

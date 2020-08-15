@@ -4,6 +4,13 @@
  <div class="row"></div>
 </div>
 
+<div class="d-sm-block d-md-none blured mx-auto mb-5 text-center col-sm-12">
+
+    <h1 class="headline1">{{$features_top_title}}</h1><br/>
+    <h2 class="headline2">{{$features_title}}</h2>
+
+</div>
+
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">
@@ -34,7 +41,7 @@
 </div>
 
 
-<div class="blured mx-auto mb-5 text-center col-sm-12">
+<div class="d-none d-md-block blured mx-auto mb-5 text-center col-sm-12">
 
     <h1 class="headline1">{{$features_top_title}}</h1><br/>
     <h2 class="headline2">{{$features_title}}</h2>
