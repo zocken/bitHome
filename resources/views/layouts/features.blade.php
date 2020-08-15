@@ -6,8 +6,8 @@
 
 <div class="d-sm-block d-md-none blured mx-auto mb-5 text-center col-sm-12">
 
-    <h1 class="headline1">{{$features_top_title}}</h1><br/>
-    <h2 class="headline2">{{$features_title}}</h2>
+    <p class="headline1">{{$features_top_title}}</p><br/>
+    <p class="headline2">{{$features_title}}</p>
 
 </div>
 

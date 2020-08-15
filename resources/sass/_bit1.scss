@@ -2,7 +2,9 @@
 
 $min_width_cards: 250px;
 $headline1_font-size: 60px;
+$headline1_font-size_mobil: 35px;
 $headline2_font-size: 45px;
+$headline2_font-size_mobil: 25px;
 $blurfaktor:3px;
 $learn_more_link_font_size: 16px;
 $link_font_size: 20px;
@@ -24,6 +26,10 @@ $link_font_size: 20px;
     font-family: 'Architects Daughter', cursive;
     font-size: $headline1_font-size;
 
+    @media screen and (max-width: 767px){
+        font-size: $headline1_font-size_mobil;
+    }
+
 
 }
 
@@ -31,6 +37,10 @@ $link_font_size: 20px;
 
     font-family: 'Architects Daughter', cursive;
     font-size: $headline2_font-size;
+
+    @media screen and (max-width: 767px){
+        font-size: $headline2_font-size_mobil;
+    }
 
 
 }
