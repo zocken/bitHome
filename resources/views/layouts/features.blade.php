@@ -15,7 +15,7 @@
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">
             <i class="fas fa-money-bill-alt fa-5x mb-3"></i>
-            <h4>{{$features_icon1_title}}</h4>
+            <h2 class="h4">{{$features_icon1_title}}</h2>
             <a data-toggle="collapse" href="#details11" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details11">
                 {{$features_icon1_text}}
@@ -23,7 +23,7 @@
         </div>
         <div class="col-sm-4">
             <i class="fas fa-pencil-ruler fa-5x mb-3"></i>
-            <h4>{{$features_icon2_title}}</h4>
+            <h2 class="h4">{{$features_icon2_title}}</h2>
             <a data-toggle="collapse" href="#details12" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details12">
                 {{$features_icon2_text}}
@@ -31,7 +31,7 @@
         </div>
         <div class="col-sm-4">
             <i class="fas fa-object-group fa-5x mb-3"></i>
-            <h4>{{$features_icon3_title}}</h4>
+            <h2 class="h4">{{$features_icon3_title}}</h2>
             <a data-toggle="collapse" href="#details13" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details13">
                 {{$features_icon3_text}}
@@ -53,7 +53,7 @@
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="col-sm-4">
             <i class="fas fa-edit fa-5x mb-3"></i>
-            <h4>{{$features_icon4_title}}</h4>
+            <h2 class="h4"4>{{$features_icon4_title}}</h2>
             <a data-toggle="collapse" href="#details1" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details1">
                 {{$features_icon4_text}}
@@ -61,7 +61,7 @@
         </div>
         <div class="col-sm-4">
             <i class="fas fa-newspaper fa-5x mb-3"></i>
-            <h4>{{$features_icon5_title}}</h4>
+            <h2 class="h4">{{$features_icon5_title}}</h2>
             <a data-toggle="collapse" href="#details2" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details2">
                 {{$features_icon5_text}}
@@ -69,7 +69,7 @@
         </div>
         <div class="col-sm-4">
             <i class="fas fa-folder-open fa-5x mb-3"></i>
-            <h4>{{$features_icon6_title}}</h4>
+            <h2 class="h4">{{$features_icon6_title}}</h2>
             <a data-toggle="collapse" href="#details3" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details3">
                 {{$features_icon6_text}}
