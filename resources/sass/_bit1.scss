@@ -8,6 +8,8 @@ $headline2_font-size_mobil: 25px;
 $blurfaktor:3px;
 $learn_more_link_font_size: 16px;
 $link_font_size: 20px;
+$primary-color: rgba(50, 80, 95, 0.705);
+//$primary-color: rgb(53, 85, 133);
 
 // to try: lighten( $color , step)
 @debug "aktueller wert von Blurfaktor: #{$blurfaktor}";
@@ -132,7 +134,7 @@ a{
 
 .header_img {
 
-    background: url("https://web-seo-it.de/bithome/public/css/images/head_bg.jpg")no-repeat;
+    //background: url("https://web-seo-it.de/bithome/public/css/images/head_bg.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -145,7 +147,7 @@ a{
 
 .header_img3 {
 
-    background: url("https://web-seo-it.de/bithome/public/css/images/head_bg2.jpg")no-repeat;
+    //background: url("https://web-seo-it.de/bithome/public/css/images/head_bg2.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -158,7 +160,7 @@ a{
 
 .header_img2 {
 
-    background: url("https://web-seo-it.de/bithome/public/css/images/head_bg3.jpg")no-repeat;
+    //background: url("https://web-seo-it.de/bithome/public/css/images/head_bg3.jpg")no-repeat;
     /* fixed center center*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,8 +173,9 @@ a{
 
 
 .btndur{
-    background: white;
+    background: rgba(50, 80, 95, 0.705);//rgb(123, 123, 168)
     @include transition(width,1s);
+
 }
 
 .pricetag
@@ -186,3 +189,35 @@ a{
 
 }
 
+@for $i from 1 through 13 {
+
+    $lighten: $i * 2;
+
+    .list-grey-price-box-#{$lighten} {
+
+      background-color: lighten($primary-color, $lighten);
+      color: lighten($primary-color, $lighten);
+
+      border-style:none;
+
+        @if ($i == 12) {
+
+            $list-background-box-color: lighten($primary-color, $lighten) !global;
+
+        }
+
+
+    }
+  }
+
+  .btndur{
+    background: rgba(50, 80, 95, 0.705);//rgb(123, 123, 168)
+    @include transition(width,1s);
+
+}
+
+  .list-background-box
+  {
+    background-color: $list-background-box-color;
+
+    }

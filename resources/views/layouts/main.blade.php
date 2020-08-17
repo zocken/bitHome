@@ -76,7 +76,7 @@
         <title>{{__('lang.page_title_meta_tag')}}</title>
 
 </head>
-    <body class="bg" >
+    <body class="bg">
         <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K843TR2"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -117,7 +117,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul  class="navbar-nav mr-auto">
                         <li  class="nav-item active">
-                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{$menue_home}} <span class="sr-only">(current)</span></a>
+                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                         <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
