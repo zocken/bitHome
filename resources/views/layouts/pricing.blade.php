@@ -6,7 +6,7 @@
 <div  class="container mt-5 ">
     <div class="row" >
 
-        <div class="col-12">
+        <div class=" col-12">
             <div class=" card-deck mb-3 py-5 text-center">
                 <div class="card mb-4 shadow-sm app-package list-background-box header_img">
                     <div class="card-header bg-dark text-white">
