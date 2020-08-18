@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);@charset "UTF-8";
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -10998,9 +10998,9 @@ a.text-dark:focus {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/nunito-v13-latin-regular.eot");
+  src: url("/bithome/public/css/fonts/nunito-v13-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Nunito Regular"), local("Nunito-Regular"), url("/fonts/nunito-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/nunito-v13-latin-regular.woff2") format("woff2"), url("/fonts/nunito-v13-latin-regular.woff") format("woff"), url("/fonts/nunito-v13-latin-regular.ttf") format("truetype"), url("/fonts/nunito-v13-latin-regular.svg#Nunito") format("svg");
+  src: local("Nunito Regular"), local("Nunito-Regular"), url("/bithome/public/css/fonts/nunito-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("/bithome/public/css/fonts/nunito-v13-latin-regular.woff2") format("woff2"), url("/bithome/public/css/fonts/nunito-v13-latin-regular.woff") format("woff"), url("/bithome/public/css/fonts/nunito-v13-latin-regular.ttf") format("truetype"), url("/bithome/public/css/fonts/nunito-v13-latin-regular.svg#Nunito") format("svg");
   /* Legacy iOS */
 }
 
@@ -11010,9 +11010,9 @@ a.text-dark:focus {
   font-family: "Architects Daughter";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/architects-daughter-v10-latin-regular.eot");
+  src: url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"), url("/fonts/architects-daughter-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/architects-daughter-v10-latin-regular.woff2") format("woff2"), url("/fonts/architects-daughter-v10-latin-regular.woff") format("woff"), url("/fonts/architects-daughter-v10-latin-regular.ttf") format("truetype"), url("/fonts/architects-daughter-v10-latin-regular.svg#ArchitectsDaughter") format("svg");
+  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"), url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.woff2") format("woff2"), url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.woff") format("woff"), url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.ttf") format("truetype"), url("/bithome/public/css/fonts/architects-daughter-v10-latin-regular.svg#ArchitectsDaughter") format("svg");
   /* Legacy iOS */
 }
 
