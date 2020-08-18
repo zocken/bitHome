@@ -11146,6 +11146,10 @@ a:active {
   padding: 15px;
 }
 
+.roundBorders {
+  border-radius: 10px;
+}
+
 .list-grey-price-box-2 {
   background-color: rgba(54, 86, 102, 0.705);
   color: rgba(54, 86, 102, 0.705);

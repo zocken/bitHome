@@ -220,6 +220,13 @@ a{
 
 }
 
+.roundBorders
+{
+
+    border-radius:10px;
+
+}
+
 @for $i from 1 through 13 {
 
     $lighten: $i * 2;

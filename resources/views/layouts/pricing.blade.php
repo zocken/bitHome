@@ -32,11 +32,11 @@
                             <li class="list-group-item py-1 px-5 list-grey-price-box-16 text-dark">{{$pricebox_line6}}</li>
                             <li class="list-group-item py-1 px-5 list-grey-price-box-14 text-dark">{{$pricebox_line7}}</li>
                             <li class="list-group-item py-1 px-5 list-grey-price-box-12 text-dark">{{$pricebox_line9}}</li>
-                            <li class="list-group-item py-1 px-5 list-grey-price-box-10">1</li>
-                            <li class="list-group-item py-1 px-5 list-grey-price-box-8">1</li>
-                            <li class="list-group-item py-1 px-5 list-grey-price-box-6">1</li>
-                            <li class="list-group-item py-1 px-5 list-grey-price-box-4">1</li>
-                            <li class="list-group-item py-1 px-5 list-grey-price-box-2">1</li>
+                            <li class="list-group-item py-1 px-5 list-grey-price-box-10">&nbsp;</li>
+                            <li class="list-group-item py-1 px-5 list-grey-price-box-8">&nbsp;</li>
+                            <li class="list-group-item py-1 px-5 list-grey-price-box-6">&nbsp;</li>
+                            <li class="list-group-item py-1 px-5 list-grey-price-box-4">&nbsp;</li>
+                            <li class="list-group-item py-1 px-5 list-grey-price-box-2">&nbsp;</li>
 
 
                         </ul>
@@ -80,9 +80,9 @@
                     <li class="list-group-item py-1 px-5 list-grey-price-box-12 text-dark">{{$pricebox_line8}}<span class="" style="" title="{{$pricebox_info4}}"><i class="fa fa-info-circle"></i></span></li>
                     <li class="list-group-item py-1 px-5 list-grey-price-box-10 text-dark">{{$pricebox_line9}}</li>
                     <li class="list-group-item py-1 px-5 list-grey-price-box-8 text-dark">{{$pricebox_line10}}</li>
-                    <li class="list-group-item py-1 px-5 list-grey-price-box-6">1</li>
-                    <li class="list-group-item py-1 px-5 list-grey-price-box-4">1</li>
-                    <li class="list-group-item py-1 px-5 list-grey-price-box-2">1</li>
+                    <li class="list-group-item py-1 px-5 list-grey-price-box-6">&nbsp;</li>
+                    <li class="list-group-item py-1 px-5 list-grey-price-box-4">&nbsp;</li>
+                    <li class="list-group-item py-1 px-5 list-grey-price-box-2">&nbsp;</li>
 
                         </ul>
 
