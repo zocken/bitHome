@@ -104,7 +104,21 @@
 
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                      <!--<span class="navbar-toggler-icon"></span>-->
+
+
+
+
+                          <svg id="loading-bar" width="36" height="22" viewBox="0 0 36 22">
+                            <g>
+                              <rect id="loading-bar-left" width="8" height="22"/>
+                              <rect id="loading-bar-middle" width="8" height="22" x="14"/>
+                              <rect id="loading-bar-right" width="8" height="22" x="28"/>
+                            </g>
+                          </svg>
+
+
+
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
