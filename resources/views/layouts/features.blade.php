@@ -13,7 +13,7 @@
 
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-money-bill-alt fa-5x mb-3"></i>
             <h2 class="h4">{{$features_icon1_title}}</h2>
             <a data-toggle="collapse" href="#details11" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
@@ -21,7 +21,7 @@
                 {{$features_icon1_text}}
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-pencil-ruler fa-5x mb-3"></i>
             <h2 class="h4">{{$features_icon2_title}}</h2>
             <a data-toggle="collapse" href="#details12" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
@@ -29,7 +29,7 @@
                 {{$features_icon2_text}}
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-object-group fa-5x mb-3"></i>
             <h2 class="h4">{{$features_icon3_title}}</h2>
             <a data-toggle="collapse" href="#details13" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
@@ -41,7 +41,7 @@
 </div>
 
 
-<div class="d-none d-md-block blured mx-auto mb-5 text-center col-sm-8">
+<div class="tile d-none d-md-block blured mx-auto mb-5 text-center col-sm-8">
 
     <h1 class="headline1">{{$features_top_title}}</h1><br/>
     <h2 class="headline2">{{$features_title}}</h2>
@@ -51,7 +51,7 @@
 
 <div  class="mb-5 container blured" >
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-edit fa-5x mb-3"></i>
             <h2 class="h4"4>{{$features_icon4_title}}</h2>
             <a data-toggle="collapse" href="#details1" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
@@ -59,7 +59,7 @@
                 {{$features_icon4_text}}
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-newspaper fa-5x mb-3"></i>
             <h2 class="h4">{{$features_icon5_title}}</h2>
             <a data-toggle="collapse" href="#details2" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
@@ -67,7 +67,7 @@
                 {{$features_icon5_text}}
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="tile col-sm-4">
             <i class="fas fa-folder-open fa-5x mb-3"></i>
             <h2 class="h4">{{$features_icon6_title}}</h2>
             <a data-toggle="collapse" href="#details3" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
