@@ -4,7 +4,7 @@
  <div class="row"></div>
 </div>
 
-<div class="d-sm-block d-md-none blured mx-auto mb-5 text-center col-sm-8">
+<div class="tile d-sm-block d-md-none blured mx-auto mb-5 text-center col-sm-8">
 
     <p class="headline1">{{$features_top_title}}</p><br/>
     <p class="headline2">{{$features_title}}</p>

@@ -15,8 +15,14 @@
   .tile {
     &:nth-child(#{$i}) {
 
+        animation-delay: $i * (1.6s);
+
       // Delay the animation. Delay increases as items loop.
-      animation-delay: $i * (.6s);
+      @media screen and (max-width: 767px)
+      {
+        animation-delay: $i * (.1s);
+        }
+
     }
   }
 }
