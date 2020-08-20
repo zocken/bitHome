@@ -1,13 +1,13 @@
 <?php
    return [
-      'page_title_meta_tag' => 'B-IT, Miete eine Webseite, eine Homepage',
+      'page_title_meta_tag' => 'B-IT, Miete eine Webseite, eine Homepage mieten',
       'menue_home' => 'Start',
       'menue_preis' => 'Preise',
       'menue_kontakt' => 'Kontakt',
       'menue_impressum' => 'Impressum',
       'menue_agb' => 'AGB',
       'menue_datenschutz' => 'Datenschutz',
-      'features_top_title' => 'Rent a Webpage, empower your Business!',
+      'features_top_title' => 'Webseite mieten statt kaufen!',
       'features_title' => 'Welche Vorteile bringt Ihnen das mieten einer Webseite?',
       'features_icon1_title' => 'Für große und kleine Budgets geeignet',
       'features_icon2_title' => 'Flexibel, anpassbar an ihre Bedürfnisse angepasst',
