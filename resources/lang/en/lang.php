@@ -1,6 +1,6 @@
 <?php
    return [
-      'page_title_meta_tag' => 'B-IT, Rent a Webpage, Rent a Website',
+      'page_title_meta_tag' => 'B-IT 🥇, Rent a Webpage, Rent a Website',
       'menue_home' => 'Home',
       'menue_preis' => 'Prices',
       'menue_kontakt' => 'Contact',
