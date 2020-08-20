@@ -25,7 +25,7 @@
         <meta name="msapplication-wide310x150logo" content="{{asset('/public/img/icons/win8-tile-310x150.png')}}"/>
         <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
-        <meta name="description" content="{{__('lang.page_title_meta_tag')}} Our mission is to help people to realize their full potential." />
+        <meta name="description" content="{{__('lang.page_title_meta_tag')}} homepage erstellen, Softwareentwicklung, SEO" />
         <link rel="canonical" href="https://web-seo-it.de/bithome/{{app()->getLocale()}}/welcome" />
         <link href="{{asset('/public/css/app.css') }}" rel="stylesheet">
 

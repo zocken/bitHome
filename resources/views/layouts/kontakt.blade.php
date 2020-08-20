@@ -11,9 +11,9 @@
 
             <div class="col-sm-4 ">
 
-            <h3 class="p-2 text-center roundBorders bg-dark text-white p-1">{{$kontakt_1}}</h3>
-                <p class="p-2 text-center roundBorders bg-dark text-white p-1">{{$kontakt_2}}</p>
-                <p class="p-2 text-center roundBorders bg-dark text-white p-1">{{$kontakt_3}}</p>
+            <h3 class="mt-4 p-2 text-center roundBorders bg-dark text-white">{{$kontakt_1}}</h3>
+                <p class="mt-5 p-2 text-center roundBorders bg-dark text-white">{{$kontakt_2}}</p>
+                <p class="p-2 text-center roundBorders bg-dark text-white ">{{$kontakt_3}}</p>
 
                 <div class="col-sm-12" style="margin-top:75px;">
                     <p class="text-center"><img  src="{{asset('/public/img/contact-image_black_white.png')}}" alt="Rent a Site Kontakt"/></p>
