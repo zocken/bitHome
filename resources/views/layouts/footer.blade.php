@@ -31,7 +31,7 @@
         </div>
 
         <div class="col-lg-8 col-sm-12">
-          <img  style="max-width: 300px;margin: -108px 0px 0px 0px" alt="Rent a Webpage Maskottchen" src="{{asset('/public/img/cloud.png')}}" >
+          <img  style="max-width: 300px;margin: -108px 0px 0px 0px" alt="Mieten einer Webseite  Maskottchen" src="{{asset('/public/img/mieten_einer_webseite_cloud.png')}}" >
 
 
           <div >
