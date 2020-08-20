@@ -127,7 +127,7 @@
                           <a style="font-size: 20px; color:black" class="nav-link"  href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}<h4 class="display-4 text-center" style="font-size: 1.5rem"></h4></a>
+                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}</a>
                         </li>
                         <li class="nav-item">
                           <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
