@@ -172,7 +172,7 @@
                             <div class="coll pin"><a alt="pinterest" target="blank" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
                             <div class="coll link"><a alt="linkedin" target="blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
                             <div class="coll bg-warning"><a alt="mail" target="blank" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
-                            <div class="coll"><i class=""></i></a></div>
+
 
                         </div>
                      </div>
