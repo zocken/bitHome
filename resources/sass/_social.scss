@@ -1,9 +1,9 @@
 $width: 42px;
 $height: 50px;
-$facebook: #1876f2d2;
-$twitter: #1da0f2d2;
-$pinterest:  #bd081dd2;
-$linkedin:  #007cb5d2;
+$facebook: #1876f2b2;
+$twitter: #1da0f2b2;
+$pinterest:  #bd081db2;
+$linkedin:  #007cb5b2;
 
 
 
@@ -32,19 +32,22 @@ $linkedin:  #007cb5d2;
 .share
 {
 
-   background-color: #ffffff;
+   background-color: #ffffffb2;
 
 
 }
 
 #socials {
+    z-index:500000000;
 	display: flex;
 	justify-content: normal;
 	position: fixed;
 	float: left;
-    margin-left:0;
+    margin-left:-15;
+    margin-top:250px;
     padding-left: 0;
-	color: rgba(#2c2c2c,.5);
+    color: rgba(#2c2c2c,.5);
+    width: 600px;
 }
 
 
@@ -52,7 +55,7 @@ $linkedin:  #007cb5d2;
 .coll {
 	height: $height;
 	line-height: $height;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	cursor: pointer;
 	transition: color .2s, border .2s;
@@ -60,7 +63,7 @@ $linkedin:  #007cb5d2;
 	a {
 		color: currentColor;
 		text-decoration: none;
-		transform: skew(25deg);
+		transform: skew(5deg);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -68,7 +71,7 @@ $linkedin:  #007cb5d2;
 	}
 
 	i {
-		font-size: 14px;
+		font-size: 18px;
 		line-height: $height;
 	}
 
@@ -167,7 +170,7 @@ $linkedin:  #007cb5d2;
 			left: ($width * 5) - 5px + 20px;
         }
         &:nth-child(7) {
-			left: ($width * 6) - 5px + 20px;
+			left: ($width * 6) - 6px + 20px;
         }
 
 	}
