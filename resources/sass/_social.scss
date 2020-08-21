@@ -1,9 +1,9 @@
 $width: 42px;
-$height: 150px;
-$facebook: #1877f2;
-$twitter: #1da1f2;
-$pinterest:  #bd081c;
-$linkedin:  #007bb5;
+$height: 50px;
+$facebook: #1876f2d2;
+$twitter: #1da0f2d2;
+$pinterest:  #bd081dd2;
+$linkedin:  #007cb5d2;
 
 
 
@@ -29,19 +29,28 @@ $linkedin:  #007bb5;
 
 }
 
+.share
+{
+
+   background-color: #ffffff;
+
+
+}
+
 #socials {
 	display: flex;
-	justify-content: flex-end;
-	position: relative;
-	float: right;
-
+	justify-content: normal;
+	position: fixed;
+	float: left;
+    margin-left:0;
+    padding-left: 0;
 	color: rgba(#2c2c2c,.5);
 }
 
 
 
 .coll {
-	height: $height - 50px;
+	height: $height;
 	line-height: $height;
 	font-size: 14px;
 	text-align: center;
@@ -51,7 +60,7 @@ $linkedin:  #007bb5;
 	a {
 		color: currentColor;
 		text-decoration: none;
-		transform: skew(10deg);
+		transform: skew(25deg);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -131,7 +140,7 @@ $linkedin:  #007bb5;
 		border-width: 1px;
 		border-style: solid;
 
-		border-radius:25px;
+		border-radius:125px;
 		transition: left 0s ease .45s, color .2s, border .2s;
 
 		&:nth-child(1) {
@@ -163,3 +172,12 @@ $linkedin:  #007bb5;
 
 	}
 }
+
+
+
+.rechts {
+
+position: absolute;
+position: fixed;
+
+    }
