@@ -1,0 +1,165 @@
+$width: 42px;
+$height: 150px;
+$facebook: #1877f2;
+$twitter: #1da1f2;
+$pinterest:  #bd081c;
+$linkedin:  #007bb5;
+
+
+
+.face
+{
+    background-color:$facebook;
+}
+
+.twi
+{
+    background-color:$twitter;
+}
+
+.pin
+{
+    background-color:$pinterest;
+}
+
+.link
+{
+
+    background-color:$linkedin;
+
+}
+
+#socials {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	float: right;
+
+	color: rgba(#2c2c2c,.5);
+}
+
+
+
+.coll {
+	height: $height - 50px;
+	line-height: $height;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	transition: color .2s, border .2s;
+
+	a {
+		color: currentColor;
+		text-decoration: none;
+		transform: skew(10deg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-color: #1a1717 !important;
+	}
+
+	i {
+		font-size: 14px;
+		line-height: $height;
+	}
+
+	&:hover {
+		color: #2c2c2c;
+		border-color: #ffffff !important;
+	}
+
+	&.share-btn {
+		i {
+			margin: 0 5px 0 0;
+		}
+	}
+}
+
+
+
+.share-window {
+	transform: skew(0deg);
+	overflow: hidden;
+	height: $height;
+}
+
+.share-bar {
+	position: relative;
+	width: ($width * 2) - 2px;
+	height: $height;
+	transition: width .4s ease .2s;
+
+
+
+	&:hover {
+		width: ($width * 7) - 5px;
+		transition: width .4s ease;
+
+		.coll {
+			&:nth-child(3) {
+				left: ($width * 2) - 2px;
+				transition: left .45s ease .06s, color .2s, border .2s;
+			}
+
+			&:nth-child(4) {
+				left: ($width * 3) - 3px;
+				transition: left .45s ease .12s, color .2s, border .2s;
+			}
+
+			&:nth-child(5) {
+				left: ($width * 4) - 4px;
+				transition: left .45s ease .18s, color .2s, border .2s;
+			}
+
+			&:nth-child(6) {
+				left: ($width * 5) - 5px;
+				transition: left .45s ease .24s, color .2s, border .2s;
+            }
+
+            &:nth-child(7) {
+				left: ($width * 6) - 6px;
+				transition: left .45s ease .30s, color .2s, border .2s;
+            }
+
+		}
+	}
+
+	.coll {
+		position: absolute;
+		top: 0;
+		width: $width;
+		border-width: 1px;
+		border-style: solid;
+
+		border-radius:25px;
+		transition: left 0s ease .45s, color .2s, border .2s;
+
+		&:nth-child(1) {
+			left: 0;
+		}
+
+		&:nth-child(2) {
+			left: $width - 1px;
+		}
+
+		&:nth-child(3) {
+			left: ($width * 2) - 2px + 20px;
+		}
+
+		&:nth-child(4) {
+			left: ($width * 3) - 3px + 20px;
+		}
+
+		&:nth-child(5) {
+			left: ($width * 4) - 4px + 20px;
+		}
+
+		&:nth-child(6) {
+			left: ($width * 5) - 5px + 20px;
+        }
+        &:nth-child(7) {
+			left: ($width * 6) - 5px + 20px;
+        }
+
+	}
+}

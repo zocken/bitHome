@@ -44,7 +44,21 @@
 
         </div>
 
-    </div>
+        <div id="socials" class="container col-lg-2 col-sm-12">
+            <div class="share-window mr-n3">
+                <div class="share-bar">
+                    <div class="coll"><i class="fas fa-share-alt"></i></div>
+                    <div class="coll face"><a alt="facebook" target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https://web-seo-it.de"><i class=" fab fa-facebook-f"></i></a></div>
+                    <div class="coll twi"><a alt="twitter" target="blank" href="https://twitter.com/home?status=https://web-seo-it.de "><i class="fab fa-twitter"></i></a></div>
+                    <div class="coll pin"><a alt="pinterest" target="blank" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
+                    <div class="coll link"><a alt="linkedin" target="blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
+                    <div class="coll bg-warning"><a alt="mail" target="blank" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
+                    <div class="coll"><i class=""></i></a></div>
+
+                </div>
+             </div>
+        </div>
+
 
   </div>
 
