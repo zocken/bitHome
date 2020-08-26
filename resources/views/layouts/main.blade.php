@@ -26,7 +26,7 @@
         <meta name="msapplication-square310x310logo" content="{{asset('/public/img/icons/win8-tile-310x310.png')}}"/>
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
         <meta name="description" content="{{__('lang.page_title_meta_tag')}} homepage erstellen, Softwareentwicklung, SEO" />
-        <link rel="canonical" href="https://web-seo-it.de/bithome/{{app()->getLocale()}}/welcome" />
+        <link rel="canonical" href="https://web-seo-it.de/bithome/{{app()->getLocale()}}/webseite_mieten" />
         <link href="{{asset('/public/css/app.css') }}" rel="stylesheet">
 
 
@@ -124,13 +124,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul  class="navbar-nav mr-auto">
                         <li  class="nav-item active">
-                          <a style="font-size: 20px; color:black" class="nav-link"  href="{{asset('/' . app()->getLocale() . '/welcome') }}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
+                          <a style="font-size: 20px; color:black" class="nav-link"  href="{{asset('/' . app()->getLocale() . '/webseite_mieten') }}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#pricing">{{$menue_preis}}</a>
+                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/webseite_mieten') }}#pricing">{{$menue_preis}}</a>
                         </li>
                         <li class="nav-item">
-                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/welcome') }}#kontakt">{{$menue_kontakt}}</a>
+                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/webseite_mieten') }}#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
                             <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>

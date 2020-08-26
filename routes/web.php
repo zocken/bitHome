@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/bithome', function () {
-    return view('welcome');
+Route::get('/bithome/de/welcome', function () {
+    return view('webseite_mieten');
 })->name('bithome');
 
 

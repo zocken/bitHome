@@ -1,6 +1,6 @@
 <?php
    return [
-      'page_title_meta_tag' => 'B-IT🥇, Mieten Webseite,eine Homepage mieten Miet-Webseite',
+    'page_title_meta_tag' => 'Miet-Webseite,Design Homepage,Webseite 19€ mieten B-IT🥇',
       'menue_home' => 'Start',
       'menue_preis' => 'Preise',
       'menue_kontakt' => 'Kontakt',

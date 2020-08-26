@@ -1,8 +1,50 @@
 
-
  <div class="container" style="margin-top:125px; margin-bottom:50px;">
- <div class="row"></div>
-</div>
+    <div class="row"></div>
+   </div>
+
+
+<!--<div id="car" class="container">
+
+<div class="row d-flex align-items-center text-center justify-content-center">
+
+    <div class="col-sm-4 app-package card car_card ">
+      <h3 class="title">{{$features_icon1_title}}</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+
+<a data-toggle="collapse" href="#details11" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
+
+        </div>
+        <div class="collapse my-2 white" id="details11">
+            {{$features_icon1_text}}
+        </div>
+    </div>
+
+    <div class="col-sm-4 app-package card car_card">
+      <h3 class="title">Card 2</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+
+    </div>
+    <div class="col-sm-4 app-package card car_card">
+      <h3 class="title">Card 3</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+    </div>
+
+
+    </div>
+</div>-->
+
+
+
+
 
 <div class="d-sm-block d-md-none blured mx-auto mb-5 text-center col-sm-8">
 
@@ -12,6 +54,7 @@
 </div>
 
 <div  class="mb-5 container blured" >
+
     <div class="row seitenAbschnitt text-center align-items-center" id="service">
         <div class="tile col-sm-4">
             <i class="fas fa-money-bill-alt fa-5x mb-3"></i>
