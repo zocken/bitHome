@@ -105,5 +105,6 @@
       the copyrights of third parties are respected. In particular, third-party content as such is
       Marked. Should you nevertheless become aware of a copyright infringement, please note accordingly.
       If we become aware of any infringements, we will remove such content immediately.',
+      'startseitenname' => 'rent-a-website',
 
     ];

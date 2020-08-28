@@ -104,5 +104,6 @@
       se respetan los derechos de autor de terceros. En particular, el contenido de terceros como tal es
       Marcado. No obstante, si tiene conocimiento de una infracción de los derechos de autor, tenga en cuenta, en consecuencia.
       Si tenemos conocimiento de alguna infracción, eliminaremos dicho contenido inmediatamente.',
+      'startseitenname' => 'Alquilar-una-pagina-web',
     ];
 ?>
