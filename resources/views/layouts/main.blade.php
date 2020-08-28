@@ -94,9 +94,9 @@
                     <nav class="d-sm-block d-md-none navbar"aria-label="Landesauswahl">
                       <ul class="ml-n3 pagination pagination-lg">
 
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland Webseite mieten" src="{{asset('/public/img/germany.png')}}" width="35" height="30"></a></li>
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina homepage mieten" src="{{asset('/public/img/argentina.png')}}" width="35" height="30"></a></li>
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="35" height="30"></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland Webseite mieten" src="{{asset('/public/img/germany.png')}}" width="35" height="30"></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web')}}"><img alt="alquilar-una-pagina-web Argentina homepage mieten" src="{{asset('/public/img/argentina.png')}}" width="35" height="30"></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="rent-a-website Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="35" height="30"></a></li>
 
                       </ul>
                     </nav>
@@ -151,9 +151,9 @@
                       <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
                         <ul class=" pagination pagination-lg">
 
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/de/' . Session::get('viewname')) }}"><img alt="Deutschland" src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/sp/' . Session::get('viewname')) }}"><img alt="Argentina" src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/en/' . Session::get('viewname')) }}"><img alt="Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland webseite-mieten" src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web') }}"><img alt="Argentina alquilar-una-pagina-web" src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="Great Britain rent-a-website" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
 
                         </ul>
                       </nav>
