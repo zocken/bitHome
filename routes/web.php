@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/bithome/de/welcome', function () {
-    return view('webseite_mieten');
+    return view('webseite-mieten');
 })->name('bithome');
 
 

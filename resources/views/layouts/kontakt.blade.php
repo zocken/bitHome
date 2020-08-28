@@ -23,7 +23,7 @@
 
 
             <div class="col-sm-8">
-                <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale(), Session::get('viewname')) ?? 'webseite_mieten' }}" method = "POST">
+                <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale(), Session::get('viewname')) ?? 'webseite-mieten' }}" method = "POST">
                     {{csrf_field()}}
 
                     <div class="form-group">
