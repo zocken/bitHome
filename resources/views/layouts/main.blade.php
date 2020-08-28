@@ -124,13 +124,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul  class="navbar-nav mr-auto">
                         <li  class="nav-item active">
-                          <a style="font-size: 20px; color:black" class="nav-link"  href="{{asset('/' . app()->getLocale() . '/webseite-mieten') }}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
+                          <a style="font-size: 20px; color:black" class="nav-link"  href="{{asset('/' . app()->getLocale()) }}/{{__('lang.startseitenname')}}#top">{{__('lang.menue_home')}}<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/webseite-mieten') }}#pricing">{{$menue_preis}}</a>
+                        <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale()) }}/{{__('lang.startseitenname')}}#pricing">{{$menue_preis}}</a>
                         </li>
                         <li class="nav-item">
-                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale() . '/webseite-mieten') }}#kontakt">{{$menue_kontakt}}</a>
+                          <a style="font-size: 20px; color:black" class="nav-link" href="{{asset('/' . app()->getLocale()) }}/{{__('lang.startseitenname')}}#kontakt">{{$menue_kontakt}}</a>
                         </li>
                         <li class="nav-item d-block d-lg-none">
                             <a style="font-size: 20px; color:black" class="nav-link" href="{{route('linkroute',['locale'=>app()->getLocale(),'viewname'=>'layouts.impressum'])}}">{{$menue_impressum}}</a>
@@ -167,11 +167,11 @@
                     <div class="share-window mr-n3">
                         <div class="share-bar">
                             <div class="coll share"><i class="fas fa-share-alt"></i></div>
-                            <div class="coll face"><a alt="facebook" target="blank" href="https://www.facebook.com/sharer/sharer.php?u=https://web-seo-it.de"><i class=" fab fa-facebook-f"></i></a></div>
-                            <div class="coll twi"><a alt="twitter" target="blank" href="https://twitter.com/home?status=https://web-seo-it.de "><i class="fab fa-twitter"></i></a></div>
-                            <div class="coll pin"><a alt="pinterest" target="blank" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
-                            <div class="coll link"><a alt="linkedin" target="blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
-                            <div class="coll bg-warning"><a alt="mail" target="blank" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
+                            <div class="coll face"><a alt="facebook" target="blank" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://web-seo-it.de"><i class=" fab fa-facebook-f"></i></a></div>
+                            <div class="coll twi"><a alt="twitter" target="blank" rel="nofollow" href="https://twitter.com/home?status=https://web-seo-it.de "><i class="fab fa-twitter"></i></a></div>
+                            <div class="coll pin"><a alt="pinterest" target="blank" rel="nofollow" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
+                            <div class="coll link"><a alt="linkedin" target="blank" rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
+                            <div class="coll bg-warning"><a alt="mail" target="blank" rel="nofollow" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
 
 
                         </div>
