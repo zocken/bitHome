@@ -32,7 +32,7 @@
 
 
 
-        <script src="{{asset('/public/js/app.js')}}"></script>
+        <script defer src="{{asset('/public/js/app.js')}}"></script>
 
 
 
