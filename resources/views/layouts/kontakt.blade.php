@@ -22,22 +22,22 @@
             </div>
 
 
-            <div class="col-sm-8">
+            <div id="removeableForm" class="col-sm-8">
                 <form id="orderform" action="{{ route ('sendOrderMail' , app()->getLocale(), Session::get('viewname')) ?? 'webseite-mieten' }}" method = "POST">
                     {{csrf_field()}}
 
                     <div class="form-group">
                         <label for="inputName">{{$kontakt_4}}</label>
-                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="{{$kontakt_5}}" value="{{Session::get('name') ?? ''}}">
+                        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="{{$kontakt_5}}" value="">
                     </div>
                     <div class="form-group">
                         <label for="inputMail">{{$kontakt_6}}</label>
-                        <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="{{$kontakt_7}}" value="{{Session::get('sender') ?? ''}}" aria-describedby="emailHilfe">
+                        <input type="email" class="form-control" id="inputMail" name="inputMail" placeholder="{{$kontakt_7}}" value="" aria-describedby="emailHilfe">
 
                     </div>
                     <div class="form-group">
                         <label for="textareaNachricht">{{$kontakt_8}}</label>
-                        <textarea class="form-control" id="textareaNachricht" rows="5" name="textareaNachricht" >{{Session::get('msgtext') ?? ''}}</textarea>
+                        <textarea class="form-control" id="textareaNachricht" rows="5" name="textareaNachricht" ></textarea>
                     </div>
 
 

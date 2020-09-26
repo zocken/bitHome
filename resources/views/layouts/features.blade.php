@@ -61,7 +61,7 @@
             <h2 class="h4">{{$features_icon1_title}}</h2>
             <a data-toggle="collapse" href="#details11" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details11">
-                {{$features_icon1_text}}
+                {!! trans('lang.features_icon1_text') !!}
             </div>
         </div>
         <div class="tile col-sm-4">
@@ -69,7 +69,8 @@
             <h2 class="h4">{{$features_icon2_title}}</h2>
             <a data-toggle="collapse" href="#details12" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details12">
-                {{$features_icon2_text}}
+
+                {!! trans('lang.features_icon2_text') !!}
             </div>
         </div>
         <div class="tile col-sm-4">
@@ -77,7 +78,7 @@
             <h2 class="h4">{{$features_icon3_title}}</h2>
             <a data-toggle="collapse" href="#details13" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details13">
-                {{$features_icon3_text}}
+                {!! trans('lang.features_icon3_text') !!}
             </div>
         </div>
     </div>
@@ -99,7 +100,7 @@
             <h2 class="h4"4>{{$features_icon4_title}}</h2>
             <a data-toggle="collapse" href="#details1" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details1">
-                {{$features_icon4_text}}
+                {!! trans('lang.features_icon4_text') !!}
             </div>
         </div>
         <div class="tile col-sm-4">
@@ -107,7 +108,7 @@
             <h2 class="h4">{{$features_icon5_title}}</h2>
             <a data-toggle="collapse" href="#details2" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details2">
-                {{$features_icon5_text}}
+                {!! trans('lang.features_icon5_text') !!}
             </div>
         </div>
         <div class="tile col-sm-4">
@@ -115,7 +116,7 @@
             <h2 class="h4">{{$features_icon6_title}}</h2>
             <a data-toggle="collapse" href="#details3" role="button" aria-expanded="false" class="white" aria-controls="collapse">{{$features_icons_link}}</a>
             <div class="collapse my-2 white" id="details3">
-                {{$features_icon6_text}}
+                {!! trans('lang.features_icon6_text') !!}
             </div>
         </div>
     </div>

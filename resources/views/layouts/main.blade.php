@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLVLYZL563"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script defer src="{{asset('/public/js/app.js')}}"></script>
+     
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{asset('/public/css/app.css') }}">
+        <noscript><link rel="stylesheet" href="{{asset('/public/css/app.css') }}"></noscript>
+      
+      
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KSC88SM');</script>
+  <!-- End Google Tag Manager -->
 
-  gtag('config', 'G-WLVLYZL563');
-</script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -27,14 +35,7 @@
         <meta name="msapplication-TileImage" content="{{asset('/public/img/icons/win8-tile-144x144.png')}}"/>
         <meta name="description" content="{{__('lang.page_title_meta_tag')}} homepage erstellen, Softwareentwicklung, SEO" />
         <link rel="canonical" href="https://web-seo-it.de/bithome/{{app()->getLocale()}}/{{__('lang.startseitenname')}}" />
-        <link href="{{asset('/public/css/app.css') }}" rel="stylesheet">
-
-
-
-
-        <script defer src="{{asset('/public/js/app.js')}}"></script>
-
-
+       
 
 <link rel="shortcut icon" type="image/x-icon" href="{{asset('/public/img/icons/favicon.ico')}}"/>
 <link rel="icon" type="image/x-icon" href="{{asset('/public/img/icons/favicon.ico')}}"/>
@@ -59,21 +60,14 @@
 <link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-192x192.png')}}" sizes="192x192"/>
 <link rel="icon" type="image/png" href="{{asset('/public/img/icons/favicon-196x196.png')}}" sizes="196x196"/>
 
-
-
-
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
         <title>{{__('lang.page_title_meta_tag')}}</title>
 
 </head>
     <body class="bg">
-        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K843TR2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+     <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSC88SM"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) --> 
 
       <div id="size-debugger-bs4" style="display:none;position: fixed;bottom: 50px;left: 50px;width: 60px;height: 50px;border: 3px solid red;z-index: 9999999;background: #fff;opacity: 0.5;">
         <style> span.naderio-vp-bs4 {width: 100%;font-size: 30px;line-height: 40px;text-align: center;}</style>
@@ -87,16 +81,16 @@
                   <nav class="blured navbar  fixed-top navbar-expand-md navbar-light" style="margin-bottom:50; font-size: 20px;">
                     <a class="navbar-brand" href="#top">
 
-                      <img alt="Rent a Webpage logo" src="{{asset('/public/img/bit.png')}}" width="100" height="60">
+                      <img alt="Rent a Webpage logo" src="{{asset('/public/img/bit.png')}}">
 
                     </a>
 
                     <nav class="d-sm-block d-md-none navbar"aria-label="Landesauswahl">
                       <ul class="ml-n3 pagination pagination-lg">
 
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland Webseite mieten" src="{{asset('/public/img/germany.png')}}" width="35" height="30"></a></li>
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web')}}"><img alt="alquilar-una-pagina-web Argentina homepage mieten" src="{{asset('/public/img/argentina.png')}}" width="35" height="30"></a></li>
-                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="rent-a-website Great Britain" src="{{asset('/public/img/united-kingdom.png')}}" width="35" height="30"></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland Webseite mieten" src="{{asset('/public/img/germany35x30.png')}}" ></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web')}}"><img alt="alquilar-una-pagina-web Argentina homepage mieten" src="{{asset('/public/img/argentina35x30.png')}}" ></a></li>
+                        <li class="mr-1 page-item"><a class="bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="rent-a-website Great Britain" src="{{asset('/public/img/united-kingdom35x30.png')}}" ></a></li>
 
                       </ul>
                     </nav>
@@ -150,10 +144,9 @@
                       </ul>
                       <nav class="d-none d-md-block navbar " aria-label="Landesauswahl">
                         <ul class=" pagination pagination-lg">
-
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland webseite-mieten" src="{{asset('/public/img/germany.png')}}" width="50" height="25"></a></li>
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web') }}"><img alt="Argentina alquilar-una-pagina-web" src="{{asset('/public/img/argentina.png')}}" width="50" height="25"></a></li>
-                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="Great Britain rent-a-website" src="{{asset('/public/img/united-kingdom.png')}}" width="50" height="25"></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/de/webseite-mieten')}}"><img alt="Deutschland webseite-mieten" src="{{asset('/public/img/germany1.png')}}" ></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/sp/alquilar-una-pagina-web') }}"><img alt="Argentina alquilar-una-pagina-web" src="{{asset('/public/img/argentina1.png')}}" ></a></li>
+                          <li class="mr-3 page-item"><a class=" bg-transparent" href="{{asset('/en/rent-a-website')}}"><img alt="Great Britain rent-a-website" src="{{asset('/public/img/united-kingdom1.png')}}"></a></li>
 
                         </ul>
                       </nav>
@@ -167,11 +160,11 @@
                     <div class="share-window mr-n3">
                         <div class="share-bar">
                             <div class="coll share"><i class="fas fa-share-alt"></i></div>
-                            <div class="coll face"><a alt="facebook" target="blank" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://web-seo-it.de"><i class=" fab fa-facebook-f"></i></a></div>
-                            <div class="coll twi"><a alt="twitter" target="blank" rel="nofollow" href="https://twitter.com/home?status=https://web-seo-it.de "><i class="fab fa-twitter"></i></a></div>
-                            <div class="coll pin"><a alt="pinterest" target="blank" rel="nofollow" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
-                            <div class="coll link"><a alt="linkedin" target="blank" rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
-                            <div class="coll bg-warning"><a alt="mail" target="blank" rel="nofollow" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
+                            <div class="coll face"><a alt="facebook" target="blank" rel="nofollow noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https://web-seo-it.de"><i class=" fab fa-facebook-f"></i></a></div>
+                            <div class="coll twi"><a alt="twitter" target="blank" rel="nofollow noopener noreferrer" href="https://twitter.com/home?status=https://web-seo-it.de "><i class="fab fa-twitter"></i></a></div>
+                            <div class="coll pin"><a alt="pinterest" target="blank" rel="nofollow noopener noreferrer" href="https://pinterest.com/pin/create/button/?url=https://web-seo-it.de&media=&description="><i class="fab fa-pinterest-p"></i></a></div>
+                            <div class="coll link"><a alt="linkedin" target="blank" rel="nofollow noopener noreferrer" href="https://www.linkedin.com/shareArticle?mini=true&url=https://web-seo-it.de&title=&summary=&source="><i class="fab fa-linkedin-in"></i></a></div>
+                            <div class="coll bg-warning"><a alt="mail" target="blank" rel="nofollow noopener noreferrer" href="mailto:info@example.com?&subject=&body=https://web-seo-it.de "><i class="fas fa-paper-plane"></i></a></div>
 
 
                         </div>
@@ -193,7 +186,6 @@
 </div>
 
 @include('layouts.footer')
-
 
 
 </body>

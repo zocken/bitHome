@@ -1,0 +1,4 @@
+php artisan responsecache:clear
+npm run production -notwithruntext
+npm run dev        -notwithruntext
+

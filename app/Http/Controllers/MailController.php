@@ -6,9 +6,21 @@ use Illuminate\Http\Request;
 use Redirect, Response, DB, Config;
 use Mail;
 use Session;
+use Spatie\ResponseCache\Facades\ResponseCache;
+
 
 class MailController extends Controller
 {
+
+
+
+
+    public function __construct()
+    {
+        $this->middleware('doNotCacheResponse', ['only' => ['fooAction', 'barAction']]);
+        ResponseCache::clear();
+      /*  \Artisan::call('cache:clear'); */
+    }
 
     public function sendMailAfterVerification(Request $request, $id, $locale)
     {
@@ -117,6 +129,7 @@ class MailController extends Controller
 
     public function sendEmail(Request $request, $locale)
     {
+
 
         app()->setLocale($locale);
         $this->setSessionVars($request);

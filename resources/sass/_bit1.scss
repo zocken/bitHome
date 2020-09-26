@@ -1,7 +1,7 @@
 
 
 
-/* nunito-regular - latin */
+// nunito-regular - latin
 @font-face {
     font-family: 'Nunito';
     font-style: normal;
@@ -17,13 +17,13 @@
 
         }
 
-  /* architects-daughter-regular - latin */
+//  /* architects-daughter-regular - latin */
 @font-face {
     font-family: 'Architects Daughter';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/bithome/public/css/fonts/architects-daughter-v10-latin-regular.eot'); /* IE9 Compat Modes */
+
     src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'),
          url('/bithome/public/css/fonts/architects-daughter-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('/bithome/public/css/fonts/architects-daughter-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
