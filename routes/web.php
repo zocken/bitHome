@@ -28,12 +28,12 @@ Route::get('/agb', function () {
     return view('layouts.agb');
 })->name('agb');
 
-Route::get('/dsgvo', function () {
-    return view('layouts.datenschutz');
-})->name('dsgvo');
+Route::get('/de/webseite-mieten/sitemap', function () {
+    return view('layouts.sitemap');
+});
 
 
-Route::get('lara-email-send/{locale}', 'MailController@sendEmail')->name('sendOrderMail');
+Route::post('lara-email-send/{locale}', 'MailController@sendEmail')->name('sendOrderMail');
 Route::get('verify/{id}/{locale}', 'MailController@sendMailAfterVerification')->name('MailController@sendMailAfterVerification');
 Route::get('/{locale}/{viewname}','LocalizationController@index')->name('bithome');
 Route::get('/{locale}/{viewname}','LocalizationController@index')->name('linkroute');
